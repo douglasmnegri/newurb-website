@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { NAV_LINKS } from "@/constants";
+import Button from "./Button";
 
 const Navbar = () => {
   return (
@@ -21,6 +22,22 @@ const Navbar = () => {
           </Link>
         ))}
       </ul>
+      <div className="lg:flexCenter hidden">
+        <Button
+          type="button"
+          variant={"btn_dark_green"}
+          title={"Contact Us"}
+          icon={"/contact-icon.svg"}
+        />
+      </div>
+
+      <Image 
+        src="/menu.svg"
+        alt="menu"
+        width={32}
+        height={32}
+        className="inline-block cursor-pointer lg:hidden"
+        />
     </nav>
   );
 };
