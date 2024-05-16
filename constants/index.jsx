@@ -18,59 +18,54 @@ export const PEOPLE_URL = [
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: "Real maps can be offline",
+    title: "Sustaintability",
     icon: "/map.svg",
-    variant: "green",
+    variant: "white",
     description:
-      "We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location",
+      "Preserve nature’s legacy with sustainable land practices. Our commitment: eco-friendly development, biodiversity conservation, and responsible stewardship. Join us in cultivating a greener, healthier future for generations to come.",
   },
   {
-    title: "Set an adventure schedule",
+    title: "Credibility",
     icon: "/calendar.svg",
     variant: "green",
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      "Trust built on integrity and action. With transparent practices, certifications, and community engagement, we ensure our sustainability commitments are not just promises, but tangible contributions to a better world.",
   },
   {
-    title: "Technology using augment reality",
+    title: "Land Ventures",
     icon: "/tech.svg",
     variant: "green",
     description:
-      "Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection",
+      "Exploring sustainable land ventures: forging partnerships for responsible development and cultivating communities for a greener future. Offering land and condominium sales, ensuring profitability with ethical practices.",
   },
   {
-    title: "Many new locations every month",
+    title: "Our Location",
     icon: "/location.svg",
     variant: "orange",
     description:
-      "Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing",
+      "Nestled in the heart of Santa Catarina state, we embark on a project acquiring plots through partnerships forged in Florianópolis. Join us in crafting a vision for sustainable land development.",
   },
 ];
 
 // FOOTER SECTION
 export const FOOTER_LINKS = [
   {
-    title: "Learn More",
+    title: "SALES CENTER",
     links: [
-      "About Hilink",
-      "Press Releases",
-      "Environment",
-      "Jobs",
-      "Privacy Policy",
-      "Contact Us",
+      "(48) 3036-9566",
     ],
   },
   {
-    title: "Our Community",
-    links: ["Climbing xixixi", "Hiking hilink", "Hilink kinthill"],
+    title: "OUR LOCATION",
+    links: ["R. Des. Pedro Silva, 2958", "Florianópolis - SC", "CEP: 88.080-701"],
   },
 ];
 
 export const FOOTER_CONTACT_INFO = {
-  title: "Contact Us",
+  title: "ASSOCIATE'S CONTACT",
   links: [
-    { label: "Admin Officer", value: "123-456-7890" },
-    { label: "Email Officer", value: "hilink@akinthil.com" },
+    { label: "Sales Director", value: "julionegri@newurb.com.br" },
+    { label: "Finace Director", value: "lucianocapuano@newurb.com.br" },
   ],
 };
 
@@ -80,7 +75,5 @@ export const SOCIALS = {
     "/facebook.svg",
     "/instagram.svg",
     "/twitter.svg",
-    "/youtube.svg",
-    "/wordpress.svg",
   ],
 };

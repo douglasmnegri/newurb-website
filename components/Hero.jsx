@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Button from "./Button";
 
 const Hero = () => {
   return (
@@ -12,15 +13,27 @@ const Hero = () => {
             layout="fill"
             objectFit="cover"
           />
+          <div className="absolute inset-0 bg-blue-900 opacity-60"></div>{" "}
+          {/* Dark blue overlay */}
         </div>
-        <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-start items-center text-white">
-          <h1 className="font-bold text-3xl lg:text-5xl text-center">
+      </div>
+
+      <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-top items-left mt-72 ml-32">
+        <div className="text-white justify-center">
+          <h1 className="font-bold text-3xl lg:text-5xl">
             Urbanism as never seen before.
           </h1>
-          <p className="text-base lg:text-lg mt-6 text-gray-700 xl:max-w-[520px] text-center">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
-            illum consectetur fugiat repellendus, explicabo ipsa quas facere
+          <p className="text-white text-base  lg:text-lg mt-6 xl:max-w-[520px]">
+            Florianópolis - Santa Catarina
           </p>
+
+          <div className="text-center mt-4">
+            <Button
+              type="button"
+              variant={"btn_dark_green"}
+              title={"Information about the release"}
+            />
+          </div>
         </div>
       </div>
     </section>

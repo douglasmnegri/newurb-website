@@ -6,9 +6,9 @@ import Button from "./Button";
 
 const Navbar = () => {
   return (
-    <nav className="flexBetween max-container padding-container relative z-30 py-5">
+    <nav className="flexBetween max-container padding-container relative z-30 py-5 gap-5">
       <Link href="/">
-        <Image src="/hilink-logo.svg" alt="logo" width={74} height={29} />
+        <Image src="/logo.svg" alt="logo" width={250} height={100} />
       </Link>
 
       <ul className="hidden h-full gap-12 lg:flex">
@@ -25,8 +25,8 @@ const Navbar = () => {
       <div className="lg:flexCenter hidden">
         <Button
           type="button"
-          variant={"btn_dark_green"}
           title={"Contact Us"}
+          variant={"btn_dark_green"}
           icon={"/contact-icon.svg"}
         />
       </div>
@@ -34,8 +34,8 @@ const Navbar = () => {
       <Image 
         src="/menu.svg"
         alt="menu"
-        width={32}
-        height={32}
+        width={34}
+        height={34}
         className="inline-block cursor-pointer lg:hidden"
         />
     </nav>
