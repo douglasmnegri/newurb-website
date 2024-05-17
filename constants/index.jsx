@@ -1,10 +1,10 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: "/", key: "home", label: "Home" },
-  { href: "/", key: "about_us", label: "About us " },
-  { href: "/", key: "investors", label: "Investors " },
-  { href: "/", key: "consulting ", label: "Consulting " },
-  { href: "/", key: "blog", label: "Blog " },
+  { href: "/about_us", key: "about_us", label: "About us " },
+  { href: "/investors", key: "investors", label: "Investors " },
+  { href: "/consulting", key: "consulting ", label: "Consulting " },
+  { href: "/blog", key: "blog", label: "Blog " },
 ];
 
 // CAMP SECTION
