@@ -14,11 +14,11 @@ const Form = () => {
   const [isWebsiteFocused, setIsWebsiteFocused] = useState(false);
 
   return (
-    <section className="flex-col flexCenter overflow-hidden bg-yellow-70 pt-5">
+    <section className="flex-col flexCenter overflow-hidden bg-yellow-70 pt-10">
       <div className="max-container padding-container relative w-full flex flex-col lg:flex-row justify-center lg:justify-between">
         <div className="z-20 flex w-full flex-col lg:w-[60%]">
           <div className="relative">
-            <h2 className="bold-40 lg:bold-64">Be a real estate agent</h2>
+            <h2 className="bold-40 lg:bold-64 pb-2">Become our partner</h2>
             <h5 className="regular-32 lg:regular-32">
             Sign up below to become part of our network of partner brokers.
             </h5>

@@ -3,7 +3,7 @@ export const NAV_LINKS = [
   { href: "/", key: "home", label: "Home" },
   { href: "/about_us", key: "about_us", label: "About us " },
   { href: "/investors", key: "investors", label: "Investors " },
-  { href: "/consulting", key: "consulting ", label: "Consulting " },
+  { href: "/offer-land", key: "offer_land ", label: "Consulting " },
   { href: "/blog", key: "blog", label: "Blog " },
 ];
 
