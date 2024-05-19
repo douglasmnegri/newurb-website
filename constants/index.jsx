@@ -62,10 +62,10 @@ export const FOOTER_LINKS = [
 ];
 
 export const FOOTER_CONTACT_INFO = {
-  title: "ASSOCIATE'S CONTACT",
+  title: "CONTACT US",
   links: [
-    { label: "Sales Director", value: "julionegri@newurb.com.br" },
-    { label: "Finace Director", value: "lucianocapuano@newurb.com.br" },
+    { label: "Mail", value: "parceria@newurb.com.br" },
+    { label: "Phone", value: "(48) 3036-9566" },
   ],
 };
 

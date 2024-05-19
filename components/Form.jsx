@@ -19,9 +19,9 @@ const Form = () => {
         <div className="z-20 flex w-full flex-col lg:w-[60%]">
           <div className="relative">
             <h2 className="bold-40 lg:bold-64">Be a real estate agent</h2>
-            <h4 className="regular-40 lg:regular-40">
-              Register below and become part of the team!
-            </h4>
+            <h5 className="regular-32 lg:regular-32">
+            Sign up below to become part of our network of partner brokers.
+            </h5>
 
             <form className="flex flex-col mt-5">
               <div className="mb-8 mt-4 relative">

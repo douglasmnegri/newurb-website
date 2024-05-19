@@ -31,12 +31,12 @@ const Footer = () => {
                   <Link
                     href="/"
                     key={index}
-                    className="flex gap-4 md:flex-col lg:flex-row"
+                    className="flex gap-2 md:flex-col lg:flex-row regular-14 text-gray-30"
                   >
                     <p className="whitespace-nowrap">
                       {link.label}:
                     </p>
-                    <p className="medium-14 whitespace-nowrap text-blue-70">
+                    <p className="regular-8 flex gap-2 text-gray-30">
                       {link.value}
                     </p>
                   </Link>
