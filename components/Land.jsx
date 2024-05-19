@@ -1,10 +1,12 @@
+"use client";
 import { PEOPLE_URL } from "@/constants";
 import Image from "next/image";
+import { useState } from "react";
 
 const CampSite = ({ backgroundImage, title, subtitle, peopleJoined }) => {
   return (
     <div
-      className={`h-full w-full min-w-[1100px] ${backgroundImage} bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl`}
+      className={`relative h-full w-full min-w-[1100px] ${backgroundImage} bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl`}
     >
       <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10">
         <div className="flexCenter gap-4">
@@ -33,26 +35,39 @@ const CampSite = ({ backgroundImage, title, subtitle, peopleJoined }) => {
           <p className="bold-16 md:bold-20 text-white">{peopleJoined}</p>
         </div>
       </div>
+
     </div>
   );
 };
 
 const Camp = () => {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const nextImage = () => {
+    setCurrentImageIndex((prevIndex) => (prevIndex === 0 ? 1 : 0));
+  };
+
+  const backgroundImageClass = currentImageIndex === 0 ? "bg-bg-img-1" : "bg-bg-img-2";
+
   return (
     <section className="2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20">
-      <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
-        <CampSite
-          backgroundImage="bg-bg-img-1"
-          title="Bosque Encantado"
-          subtitle="Camboriú, Santa Catarina"
-          peopleJoined="50+ Bought a land here"
-        />
-        <CampSite
-          backgroundImage="bg-bg-img-2"
-          title="Terra Nobre"
-          subtitle="Goiânia, Goiás"
-          peopleJoined="120+ Bought a land here"
-        />
+      <div className="hide-scrollbar flex items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
+        <div className="relative w-[1100px] flex-shrink-0 h-full">
+          <CampSite
+            backgroundImage={backgroundImageClass}
+            title={currentImageIndex === 0 ? "Bosque Encantado" : "Terra Nobre"}
+            subtitle={currentImageIndex === 0 ? "Camboriú, Santa Catarina" : "Goiânia, Goiás"}
+            peopleJoined={currentImageIndex === 0 ? "50+ Bought a land here" : "120+ Bought a land here"}
+          />
+        </div>
+        <div className="relative w-[1100px] h-full">
+          <CampSite
+            backgroundImage={currentImageIndex === 0 ? "bg-bg-img-2" : "bg-bg-img-1"}
+            title={currentImageIndex === 0 ? "Terra Nobre" : "Bosque Encantado"}
+            subtitle={currentImageIndex === 0 ? "Goiânia, Goiás" : "Camboriú, Santa Catarina"}
+            peopleJoined={currentImageIndex === 0 ? "120+ Bought a land here" : "50+ Bought a land here"}
+          />
+        </div>
       </div>
 
       <div className="flexEnd mt-10 px-6 lg:-mt-60 lg:mr-6">
@@ -72,6 +87,11 @@ const Camp = () => {
             height={219}
             className="camp-quote"
           />
+          <button onClick={nextImage} className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-white text-green-500 rounded-full p-2 focus:outline-none mr-2">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
         </div>
       </div>
     </section>

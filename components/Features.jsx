@@ -10,8 +10,8 @@ const Features = () => {
           <Image
             src="/green-symbol.svg"
             alt="phone"
-            width={370}
-            height={500}
+            width={320}
+            height={400}
           />
         </div>
 
