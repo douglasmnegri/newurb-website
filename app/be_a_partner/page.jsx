@@ -1,7 +1,8 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
+import { IoIosAttach } from "react-icons/io";
 
 const Partner = () => {
-  let message = `There are many variations of passages of Lorem Ipsum available but the \n majority have suffered alteration in some injected humour.`;
   return (
     <>
       {/* About Us Section */}
@@ -21,46 +22,39 @@ const Partner = () => {
 
       <section className="bg-gray-100 py-12">
         <h1 className="text-2xl font-bold mb-12 text-center">
-          Benefits of being our partner</h1>
+          Benefits of being our partner
+        </h1>
         <div className="container mx-auto text-center max-w-4xl">
           <div className="flex flex-wrap justify-around mb-8">
             <div className="w-full sm:w-1/3 px-4 mb-8">
               <div className="flex flex-col items-center">
-                <div className="text-6xl mb-4">🌱</div>{" "}
-                {/* Random symbol as icon */}
-                <h3 className="text-xl font-semibold mb-2">Purpose</h3>
+                <div className="text-6xl mb-4">🌱</div>
+                <h3 className="text-xl font-semibold mb-2">
+                  Business Opportunities
+                </h3>
                 <p className="text-gray-700">
-                  We are committed to offering more than just plots of land, but
-                  opportunities for developing spaces that promote a quality
-                  life in harmony with nature.
+                  Participation in large-scale projects with high visibility.
                 </p>
               </div>
             </div>
             <div className="w-full sm:w-1/3 px-4 mb-8">
               <div className="flex flex-col items-center">
-                <div className="text-6xl mb-4">🏠</div>{" "}
-                {/* Random symbol as icon */}
-                <h3 className="text-xl font-semibold mb-2">Mission</h3>
+                <div className="text-6xl mb-4">🏠</div>
+                <h3 className="text-xl font-semibold mb-2">Networking</h3>
                 <p className="text-gray-700">
-                  Our mission is to provide plots that serve as the foundation
-                  for developing residential and commercial spaces that promote
-                  quality of life and sustainability.
+                  Connection with other professionals and leading companies in
+                  the real estate sector.
                 </p>
               </div>
             </div>
           </div>
           <div className="w-full px-4">
             <div className="flex flex-col items-center">
-              <div className="text-6xl mb-4">🌟</div>{" "}
-              {/* Random symbol as icon */}
-              <h3 className="text-xl font-semibold mb-2">Vision</h3>
+              <div className="text-6xl mb-4">🌟</div>
+              <h3 className="text-xl font-semibold mb-2">Joint Growth</h3>
               <p className="text-gray-700 max-w-2xl mx-auto">
-                Our vision is to be leaders in the subdivision sector,
-                transforming areas into planned communities that stand out for
-                their sustainability, quality of life, and integration with the
-                surroundings. We want to be recognized as agents of positive
-                change, contributing to the development of areas that offer
-                lasting value for future generations.
+                Potential for growth and joint development with our real estate
+                business holding.
               </p>
             </div>
           </div>
@@ -79,7 +73,7 @@ const Partner = () => {
               <p>Real estate agents who can help us market our subdivisions.</p>
             </div>
             <div className="bg-gray-100 shadow-md rounded-md p-6 hover:bg-green-50 hover:text-white">
-              <h2 className="text-lg font-bold mb-2">Design & Architet</h2>
+              <h2 className="text-lg font-bold mb-2">Design & Architect</h2>
               <p>
                 Architectural and design firms to create aesthetically pleasing
                 designs for our subdivisions.
@@ -87,7 +81,7 @@ const Partner = () => {
             </div>
             <div className="bg-gray-100 shadow-md rounded-md p-6 hover:bg-green-50 hover:text-white">
               <h2 className="text-lg font-bold mb-2">
-                Enviromental & Civil Engineers
+                Environmental & Civil Engineers
               </h2>
               <p>
                 Civil and environmental engineering firms to ensure our
@@ -116,9 +110,9 @@ const Partner = () => {
               </p>
             </div>
             <div className="bg-gray-100 shadow-md rounded-md p-6 hover:bg-green-50 hover:text-white">
-              <h2 className="text-lg font-bold mb-2">Paving and Drenage</h2>
+              <h2 className="text-lg font-bold mb-2">Paving and Drainage</h2>
               <p>
-                Infrastructure companies to provide paving, drainage, water
+                Infrastructure companies to provide paving, drainage, and water
                 supply.
               </p>
             </div>
@@ -132,10 +126,105 @@ const Partner = () => {
             <div className="bg-gray-100 shadow-md rounded-md p-6 hover:bg-green-50 hover:text-white">
               <h2 className="text-lg font-bold mb-2">Sewage</h2>
               <p>
-                Infrastructure companies to provide and sewage network services
-                for our subdivisions.
+                Infrastructure companies to provide sewage network services for
+                our subdivisions.
               </p>
-            </div>{" "}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-gray-100 py-12">
+        <div className="container mx-auto text-center max-w-4xl">
+          <h1 className="text-2xl font-bold mb-8">How to become a partner</h1>
+          <div className="text-left text-lg text-gray-700 mx-auto max-w-2xl">
+            <ul className="space-y-6">
+              <li className="flex items-start">
+                <div className="flex-shrink-0">
+                  <span className="inline-flex items-center justify-center h-12 w-12 rounded-full bg-blue-900 text-white">
+                    1
+                  </span>
+                </div>
+                <div className="ml-4">
+                  <p className="text-xl font-semibold mb-1">
+                    Submit Your Proposal:{" "}
+                  </p>
+                  <p>
+                    Fill out our registration form with detailed information
+                    about your company and the services you offer.
+                  </p>
+                </div>
+              </li>
+              <li className="flex items-start">
+                <div className="flex-shrink-0">
+                  <span className="inline-flex items-center justify-center h-12 w-12 rounded-full bg-green-500 text-white">
+                    2
+                  </span>
+                </div>
+                <div className="ml-4">
+                  <p className="text-xl font-semibold mb-1">Evaluation: </p>
+                  <p>
+                    Our team of experts will evaluate your proposal based on
+                    criteria of quality, experience, and compatibility with our
+                    projects.
+                  </p>
+                </div>
+              </li>
+              <li className="flex items-start">
+                <div className="flex-shrink-0">
+                  <span className="inline-flex items-center justify-center h-12 w-12 rounded-full bg-yellow-700 text-white">
+                    3
+                  </span>
+                </div>
+                <div className="ml-4">
+                  <p className="text-xl font-semibold mb-1">Contact</p>
+                  <p>
+                    We will get in touch to discuss partnership opportunities
+                    and the next steps.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-feature-bg py-12">
+        <div className="container mx-auto text-center max-w-4xl">
+          <h1 className="text-2xl font-bold mb-4">Contact Us</h1>
+          <div className="text-left text-lg text-gray-700 mx-auto max-w-2xl">
+            <p>
+              For more information or inquiries, feel free to contact our
+              partnership team:
+            </p>
+            <ul className="list-none mt-4">
+              <li className="mb-2">
+                <strong>Email:</strong>{" "}
+                <a
+                  href="mailto:julionegri@newurb.com.br"
+                  className="text-blue-600 hover:underline"
+                >
+                  julionegri@newurb.com.br
+                </a>
+              </li>
+              <li className="mb-2">
+                <strong>Phone:</strong>{" "}
+                <a
+                  href="tel:+554830369566"
+                  className="text-blue-600 hover:underline"
+                >
+                  (48) 3036-9566
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className="mt-8">
+            <a
+              href="mailto:julionegri@newurb.com.br"
+              className="bg-green-500 text-white px-6 py-3 rounded-md shadow-md hover:bg-green-900 transition-colors duration-300"
+            >
+              Get In Touch
+            </a>
           </div>
         </div>
       </section>
