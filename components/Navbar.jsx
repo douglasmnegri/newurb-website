@@ -25,7 +25,7 @@ const Navbar = () => {
       <div className="lg:flexCenter hidden">
         <Button
           type="button"
-          title={"Contact Us"}
+          title={"List your property"}
           variant={"btn_dark_green"}
           icon={"/contact-icon.svg"}
         />
