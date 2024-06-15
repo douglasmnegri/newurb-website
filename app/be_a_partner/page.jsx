@@ -29,7 +29,7 @@ const Partner = () => {
           <div className="flex flex-wrap justify-around mb-8">
             <div className="w-full sm:w-1/3 px-4 mb-8">
               <div className="flex flex-col items-center">
-                <div className="text-6xl mb-4">
+                <div>
                   <Image
                     src="/opportunities.svg"
                     width={200}
@@ -48,7 +48,7 @@ const Partner = () => {
             </div>
             <div className="w-full sm:w-1/3 px-4 mb-8">
               <div className="flex flex-col items-center">
-                <div className="text-6xl mb-4">
+                <div>
                   <Image
                     src="/network.svg"
                     width={200}
@@ -67,7 +67,7 @@ const Partner = () => {
           </div>
           <div className="w-full px-4">
             <div className="flex flex-col items-center">
-              <div className="text-6xl mb-4">
+              <div>
                 <Image
                   src="/partnership.svg"
                   width={200}
