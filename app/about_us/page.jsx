@@ -36,7 +36,15 @@ function Investors() {
           <div className="flex flex-wrap justify-around mb-8">
             <div className="w-full sm:w-1/3 px-4 mb-8">
               <div className="flex flex-col items-center">
-                <div className="text-6xl mb-4">🌱</div>{" "}
+                <div className="text-6xl mb-4">
+                  <Image
+                    src="/purpose.svg"
+                    width={200}
+                    height={200}
+                    className="mx-auto mb-4 rounded-full w-32 h-32"
+                    alt="pic"
+                  />
+                </div>
                 {/* Random symbol as icon */}
                 <h3 className="text-xl font-semibold mb-2">Purpose</h3>
                 <p className="text-gray-700">
@@ -48,7 +56,14 @@ function Investors() {
             </div>
             <div className="w-full sm:w-1/3 px-4 mb-8">
               <div className="flex flex-col items-center">
-                <div className="text-6xl mb-4">🏠</div>{" "}
+                <div className="text-6xl mb-4">
+                <Image
+                    src="/mission.svg"
+                    width={200}
+                    height={200}
+                    className="mx-auto mb-4 rounded-full w-32 h-32"
+                    alt="pic"
+                  /></div>
                 {/* Random symbol as icon */}
                 <h3 className="text-xl font-semibold mb-2">Mission</h3>
                 <p className="text-gray-700">
@@ -61,7 +76,15 @@ function Investors() {
           </div>
           <div className="w-full px-4">
             <div className="flex flex-col items-center">
-              <div className="text-6xl mb-4">🌟</div>{" "}
+              <div className="text-6xl mb-4">
+                <Image
+                  src="/vision.svg"
+                  width={200}
+                  height={200}
+                  className="mx-auto mb-4 rounded-full w-32 h-32"
+                  alt="pic"
+                />
+              </div>
               {/* Random symbol as icon */}
               <h3 className="text-xl font-semibold mb-2">Vision</h3>
               <p className="text-gray-700 max-w-2xl mx-auto">

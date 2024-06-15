@@ -8,12 +8,12 @@ const Hero = () => {
       <div className="hidden lg:block relative">
         <div className="bg-cover bg-no-repeat h-dvh bg-fixed bg-center relative">
           <Image
-            src="/family.jpg"
+            src="/family.svg"
             alt="family"
             layout="fill"
             objectFit="cover"
           />
-          <div className="absolute inset-0 bg-blue-900 opacity-60"></div>{" "}
+          <div className="absolute inset-0"></div>{" "}
           {/* Dark blue overlay */}
         </div>
       </div>

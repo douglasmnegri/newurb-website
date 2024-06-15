@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { IoIosAttach } from "react-icons/io";
+import Image from "next/image";
 
 const Partner = () => {
   return (
@@ -28,7 +29,15 @@ const Partner = () => {
           <div className="flex flex-wrap justify-around mb-8">
             <div className="w-full sm:w-1/3 px-4 mb-8">
               <div className="flex flex-col items-center">
-                <div className="text-6xl mb-4">🌱</div>
+                <div className="text-6xl mb-4">
+                  <Image
+                    src="/opportunities.svg"
+                    width={200}
+                    height={200}
+                    className="mx-auto mb-4 w-32 h-32"
+                    alt="pic"
+                  />
+                </div>
                 <h3 className="text-xl font-semibold mb-2">
                   Business Opportunities
                 </h3>
@@ -39,7 +48,15 @@ const Partner = () => {
             </div>
             <div className="w-full sm:w-1/3 px-4 mb-8">
               <div className="flex flex-col items-center">
-                <div className="text-6xl mb-4">🏠</div>
+                <div className="text-6xl mb-4">
+                  <Image
+                    src="/network.svg"
+                    width={200}
+                    height={200}
+                    className="mx-auto mb-4 w-32 h-32"
+                    alt="pic"
+                  />
+                </div>
                 <h3 className="text-xl font-semibold mb-2">Networking</h3>
                 <p className="text-gray-700">
                   Connection with other professionals and leading companies in
@@ -50,7 +67,15 @@ const Partner = () => {
           </div>
           <div className="w-full px-4">
             <div className="flex flex-col items-center">
-              <div className="text-6xl mb-4">🌟</div>
+              <div className="text-6xl mb-4">
+                <Image
+                  src="/partnership.svg"
+                  width={200}
+                  height={200}
+                  className="mx-auto mb-4 w-32 h-32"
+                  alt="pic"
+                />
+              </div>
               <h3 className="text-xl font-semibold mb-2">Joint Growth</h3>
               <p className="text-gray-700 max-w-2xl mx-auto">
                 Potential for growth and joint development with our real estate

@@ -14,13 +14,13 @@ const Form = () => {
   const [isWebsiteFocused, setIsWebsiteFocused] = useState(false);
 
   return (
-    <section className="flex-col flexCenter overflow-hidden bg-yellow-70 pt-10">
+    <section className="flex-col flexCenter overflow-hidden pt-10 bg-[rgb(237,191,133)] sm:bg-form-bg">
       <div className="max-container padding-container relative w-full flex flex-col lg:flex-row justify-center lg:justify-between">
         <div className="z-20 flex w-full flex-col lg:w-[60%]">
           <div className="relative">
             <h2 className="bold-40 lg:bold-64 pb-2">Become our partner</h2>
             <h5 className="regular-32 lg:regular-32">
-            Sign up below to become part of our network of partner brokers.
+              Sign up below to become part of our network of partner brokers.
             </h5>
 
             <form className="flex flex-col mt-5">
@@ -129,15 +129,6 @@ const Form = () => {
               </button>
             </form>
           </div>
-        </div>
-        <div className="flex justify-right items-end w-full lg:w-auto mt-8 lg:mt-0">
-          <Image
-            src={"/real-state-agent.png"}
-            alt="realtor"
-            height={1000}
-            width={900}
-            className="object-contain"
-          />
         </div>
       </div>
     </section>

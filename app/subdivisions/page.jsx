@@ -10,7 +10,7 @@ const Subdivisions = () => {
     <section className="bg-white py-12">
       <h1 className="text-4xl font-bold mb-8 text-center">Subdivisions</h1>
       <div className="container mx-auto flex justify-center">
-        <div className="bg-gray-100 shadow-lg rounded-lg max-w-7xl w-full overflow-hidden">
+        <div className="bg-gray-100 shadow-lg rounded-2xl max-w-7xl w-full overflow-hidden">
           <div className="flex flex-wrap md:flex-nowrap">
             {/* Left part with Image as Background */}
             <div
