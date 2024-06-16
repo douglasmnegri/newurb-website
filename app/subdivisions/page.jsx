@@ -4,6 +4,7 @@ import { FaChartArea } from "react-icons/fa";
 import { PiTreeEvergreenFill } from "react-icons/pi";
 import { IoHappy } from "react-icons/io5";
 import { MdOutlineAreaChart } from "react-icons/md";
+import Image from "next/image";
 
 const Subdivisions = () => {
   return (
@@ -56,6 +57,17 @@ const Subdivisions = () => {
                   <p className="mt-2">100</p>
                 </div>
               </div>
+              <div className="text-left flex flex-col items-center justify-center p-4">
+                <div className="flex justify-end">
+                  <p className="p-2">Under Construction</p>
+                  <Image
+                    src="/development.svg"
+                    alt="Realtor Partner"
+                    height={25}
+                    width={25}
+                  />
+                </div>
+              </div>{" "}
             </div>
           </div>
         </div>
@@ -99,6 +111,17 @@ const Subdivisions = () => {
                   <p className="mt-2">300</p>
                 </div>
               </div>
+              <div className="text-left flex flex-col items-center justify-center p-4">
+                <div className="flex justify-end">
+                  <p className="p-2">Under Construction</p>
+                  <Image
+                    src="/development.svg"
+                    alt="Realtor Partner"
+                    height={25}
+                    width={25}
+                  />
+                </div>
+              </div>{" "}
             </div>
           </div>
         </div>
@@ -144,6 +167,17 @@ const Subdivisions = () => {
                   <p className="mt-2">10</p>
                 </div>
               </div>
+              <div className="text-left flex flex-col items-center justify-center p-4">
+                <div className="flex justify-end">
+                  <p className="p-2">Under Construction</p>
+                  <Image
+                    src="/development.svg"
+                    alt="Realtor Partner"
+                    height={25}
+                    width={25}
+                  />
+                </div>
+              </div>{" "}
             </div>
           </div>
         </div>

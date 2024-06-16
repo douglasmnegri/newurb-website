@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Link from "next/link";
-import { SOCIALS } from "@/constants";
+import { SOCIALS, SOCIALS_PARTNERS } from "@/constants";
 import Image from "next/image";
 
 function Investors() {
@@ -131,7 +131,7 @@ function Investors() {
                     </p>
                   </div>
                   <ul className="regular-8 flex gap-2 text-gray-30 items-center justify-center mt-3">
-                    {SOCIALS.links.map((link, index) => (
+                    {SOCIALS_PARTNERS.links.map((link, index) => (
                       <Link href="/" key={index}>
                         <Image src={link} alt="logo" width={24} height={24} />
                       </Link>
@@ -164,7 +164,7 @@ function Investors() {
                     </p>
                   </div>
                   <ul className="regular-8 flex gap-2 text-gray-30 items-center justify-center mt-3">
-                    {SOCIALS.links.map((link, index) => (
+                    {SOCIALS_PARTNERS.links.map((link, index) => (
                       <Link href="/" key={index}>
                         <Image src={link} alt="logo" width={24} height={24} />
                       </Link>

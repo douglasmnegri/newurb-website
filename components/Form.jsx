@@ -20,7 +20,7 @@ const Form = () => {
           <div className="relative">
             <h2 className="bold-32 lg:bold-64 pb-2">Become our partner</h2>
             <h5 className="lg:regular-32">
-              Sign up below to become part of our network of partner brokers.
+              Sign up below to become part of our network of partner brokers
             </h5>
 
             <form className="flex flex-col mt-5">
@@ -123,7 +123,7 @@ const Form = () => {
 
               <button
                 type="submit"
-                className="p-2 bg-blue-900 text-white rounded mb-4 hover:bg-blue-600 mr-12"
+                className="p-2 bg-blue-900 text-white rounded hover:bg-blue-600 mr-12 mb-8"
               >
                 Submit
               </button>

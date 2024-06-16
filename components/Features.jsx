@@ -5,19 +5,18 @@ import React from "react";
 const Features = () => {
   return (
     <section className="flex-col flexCenter overflow-hidden bg-feature-bg bg-center bg-no-repeat py-24">
-      <div className="max-container padding-container relative w-full flex justify-end">
+      <div className="max-container px-8 relative w-full flex justify-end">
         <div className="flex flex-1 lg:min-h-[900px]">
           <Image
             src="/green-symbol.svg"
             alt="phone"
-            width={320}
-            height={400}
+            width={300}
+            height={300}
           />
         </div>
 
         <div className="z-20 flex w-full flex-col lg:w-[60%]">
           <div className="relative">
-            <h2 className="bold-40 lg:bold-64">About Us</h2>
           </div>
           <ul className="mt-10 grid gap-10 md:grid-cols-2 lg:mg-20 lg:gap-20">
             {FEATURES.map((feature) => (

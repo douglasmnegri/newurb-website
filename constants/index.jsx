@@ -1,7 +1,6 @@
 
 // NAVIGATION
 export const NAV_LINKS = [
-  { href: "/", key: "home", label: "Home" },
   { href: "/about_us", key: "about_us", label: "About us " },
   { href: "/subdivisions", key: "subdivisions", label: "Subdivisions " },
   { href: "/be_a_partner", key: "be_a_partner", label: "Be a partner " },
@@ -72,8 +71,17 @@ export const FOOTER_CONTACT_INFO = {
 export const SOCIALS = {
   title: "Social",
   links: [
-    "/facebook.svg",
     "/instagram.svg",
-    "/twitter.svg",
+    "/facebook.svg",
+    "/youtube.svg",
+  ],
+};
+
+export const SOCIALS_PARTNERS = {
+  title: "Social",
+  links: [
+    "/instagram.svg",
+    "/facebook.svg",
+    "/linkedin.svg",
   ],
 };

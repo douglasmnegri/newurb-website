@@ -18,22 +18,6 @@ const CampSite = ({ backgroundImage, title, subtitle, peopleJoined }) => {
             <p className="regular-14 text-white">{subtitle}</p>
           </div>
         </div>
-
-        <div className="flexCenter gap-6">
-          <span className="flex -space-x-4 overflow-hidden">
-            {PEOPLE_URL.map((url) => (
-              <Image
-                className="inline-block h-10 w-10 rounded-full"
-                src={url}
-                key={url}
-                alt="person"
-                width={52}
-                height={52}
-              />
-            ))}
-          </span>
-          <p className="bold-16 md:bold-20 text-white">{peopleJoined}</p>
-        </div>
       </div>
 
     </div>
@@ -55,16 +39,16 @@ const Camp = () => {
         <div className="relative w-[1100px] flex-shrink-0 h-full">
           <CampSite
             backgroundImage={backgroundImageClass}
-            title={currentImageIndex === 0 ? "Bosque Encantado" : "Terra Nobre"}
-            subtitle={currentImageIndex === 0 ? "Camboriú, Santa Catarina" : "Goiânia, Goiás"}
+            title={currentImageIndex === 0 ? "Condomínio Terras das Oliveiras" : "Residencial Cidade Nova"}
+            subtitle={currentImageIndex === 0 ? "Maria da Fé, Minas Gerais" : "Inaciolândia, Goiás"}
             peopleJoined={currentImageIndex === 0 ? "50+ Bought a land here" : "120+ Bought a land here"}
           />
         </div>
         <div className="relative w-[1100px] h-full">
           <CampSite
             backgroundImage={currentImageIndex === 0 ? "bg-bg-img-2" : "bg-bg-img-1"}
-            title={currentImageIndex === 0 ? "Terra Nobre" : "Bosque Encantado"}
-            subtitle={currentImageIndex === 0 ? "Goiânia, Goiás" : "Camboriú, Santa Catarina"}
+            title={currentImageIndex === 0 ? "Residencial Cidade Nova" : "Condomínio Terras das Oliveiras"}
+            subtitle={currentImageIndex === 0 ? "Inaciolândia, Goiás" : "Maria da Fé, Minas Gerais"}
             peopleJoined={currentImageIndex === 0 ? "120+ Bought a land here" : "50+ Bought a land here"}
           />
         </div>

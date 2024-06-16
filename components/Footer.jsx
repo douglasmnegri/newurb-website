@@ -5,14 +5,14 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="flexCenter mb-24">
-      <div className="padding-container max-container flex w-full flex-col gap-14">
-        <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
+    <footer className="flexCenter mb-24 mt-8">
+      <div className="px-8 max-container flex w-full flex-col gap-14">
+        <div className="flex flex-col items-start justify-center gap-[7%] md:flex-row">
           <Link href="/" className="mb-10">
             <Image src="logo.svg" alt="logo" width={150} height={150} />
           </Link>
 
-          <div className='flex flex-wrap gap-10 sm:justify-between md:flex-1'>
+          <div className='flex gap-10 sm:justify-between md:flex-1'>
             {FOOTER_LINKS.map((columns) => (
               <FooterColumn title={columns.title} key={columns.title}>
                 <ul className="regular-14 flex flex-col gap-4 text-gray-30">
@@ -31,7 +31,7 @@ const Footer = () => {
                   <Link
                     href="/"
                     key={index}
-                    className="flex gap-2 md:flex-col lg:flex-row regular-14 text-gray-30"
+                    className="flex gap-2 md:flex-col lg:flex-row justify-center regular-14 text-gray-30"
                   >
                     <p className="whitespace-nowrap">
                       {link.label}:
@@ -49,7 +49,7 @@ const Footer = () => {
                 <ul className="regular-8 flex gap-2 text-gray-30">
                   {SOCIALS.links.map((link, index) => (
                     <Link href="/" key={index}>
-                      <Image src={link} alt="logo" width={24} height={24} />
+                      <Image src={link} alt="logo" width={22} height={22} />
                     </Link>
                   ))}
                 </ul>
