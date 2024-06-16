@@ -12,7 +12,7 @@ const Footer = () => {
             <Image src="logo.svg" alt="logo" width={150} height={150} />
           </Link>
 
-          <div className='flex gap-10 sm:justify-between md:flex-1'>
+          <div className='flex flex-col gap-10 sm:justify-between md:flex-row'>
             {FOOTER_LINKS.map((columns) => (
               <FooterColumn title={columns.title} key={columns.title}>
                 <ul className="regular-14 flex flex-col gap-4 text-gray-30">

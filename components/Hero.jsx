@@ -23,9 +23,6 @@ const Hero = () => {
           <h1 className="font-bold text-3xl lg:text-5xl">
             Urbanism as never seen before.
           </h1>
-          <p className="text-white text-base  lg:text-lg mt-6 xl:max-w-[520px]">
-            Florianópolis - Santa Catarina
-          </p>
 
           <div className="text-center mt-4">
             <Button
