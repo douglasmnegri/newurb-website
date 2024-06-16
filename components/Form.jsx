@@ -14,12 +14,12 @@ const Form = () => {
   const [isWebsiteFocused, setIsWebsiteFocused] = useState(false);
 
   return (
-    <section className="flex-col flexCenter overflow-hidden pt-10 bg-[rgb(237,191,133)] sm:bg-form-bg">
-      <div className="max-container padding-container relative w-full flex flex-col lg:flex-row justify-center lg:justify-between">
-        <div className="z-20 flex w-full flex-col lg:w-[60%]">
+    <section className="pt-10 bg-[rgb(237,191,133)]">
+      <div className="flex flex-col ml-12 lg:flex-row justify-center lg:justify-between relative">
+        <div className="z-20 w-full lg:w-[40%] lg:ml-10 flex flex-col">
           <div className="relative">
-            <h2 className="bold-40 lg:bold-64 pb-2">Become our partner</h2>
-            <h5 className="regular-32 lg:regular-32">
+            <h2 className="bold-32 lg:bold-64 pb-2">Become our partner</h2>
+            <h5 className="lg:regular-32">
               Sign up below to become part of our network of partner brokers.
             </h5>
 
@@ -29,7 +29,7 @@ const Form = () => {
                   type="text"
                   id="name"
                   name="name"
-                  className="p-2 border-b-2 border-black rounded-none bg-transparent outline-none w-full"
+                  className="p-2 border-b-2 border-black rounded-none bg-transparent outline-none md:w-full"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   onFocus={() => setIsNameFocused(true)}
@@ -51,7 +51,7 @@ const Form = () => {
                   type="email"
                   id="email"
                   name="email"
-                  className="p-2 border-b-2 border-black rounded-none bg-transparent outline-none w-full"
+                  className="p-2 border-b-2 border-black rounded-none bg-transparent outline-none md:w-full"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   onFocus={() => setIsEmailFocused(true)}
@@ -73,7 +73,7 @@ const Form = () => {
                   type="text"
                   id="whatsapp"
                   name="whatsapp"
-                  className="p-2 border-b-2 border-black rounded-none bg-transparent outline-none w-full"
+                  className="p-2 border-b-2 border-black rounded-none bg-transparent outline-none md:w-full"
                   value={whatsapp}
                   onChange={(e) => setWhatsapp(e.target.value)}
                   onFocus={() => setIsWhatsappFocused(true)}
@@ -95,7 +95,7 @@ const Form = () => {
                   type="url"
                   id="website"
                   name="website"
-                  className="p-2 border-b-2 border-black rounded-none bg-transparent outline-none w-full"
+                  className="p-2 border-b-2 border-black rounded-none bg-transparent outline-none md:w-full"
                   value={website}
                   onChange={(e) => setWebsite(e.target.value)}
                   onFocus={() => setIsWebsiteFocused(true)}
@@ -123,11 +123,22 @@ const Form = () => {
 
               <button
                 type="submit"
-                className="p-2 bg-blue-900 text-white rounded mb-4 hover:bg-blue-600"
+                className="p-2 bg-blue-900 text-white rounded mb-4 hover:bg-blue-600 mr-12"
               >
                 Submit
               </button>
             </form>
+          </div>
+        </div>
+        <div className="hidden lg:block w-full lg:self-end left-0 absolute">
+          {/* Image */}
+          <div className="flex justify-end">
+            <Image
+              src="/glasses-model.png"
+              alt="Realtor Partner"
+              height={900}
+              width={900}
+            />
           </div>
         </div>
       </div>

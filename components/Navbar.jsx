@@ -23,21 +23,24 @@ const Navbar = () => {
         ))}
       </ul>
       <div className="lg:flexCenter hidden">
-        <Button
-          type="button"
-          title={"List your property"}
-          variant={"btn_dark_green"}
-          icon={"/contact-icon.svg"}
-        />
+        <Link href={"/list_property"}>
+          <Button
+            onClick="/list_property"
+            type="button"
+            title={"List your property"}
+            variant={"btn_dark_green"}
+            icon={"/contact-icon.svg"}
+          />
+        </Link>
       </div>
 
-      <Image 
+      <Image
         src="/menu.svg"
         alt="menu"
         width={34}
         height={34}
         className="inline-block cursor-pointer lg:hidden"
-        />
+      />
     </nav>
   );
 };

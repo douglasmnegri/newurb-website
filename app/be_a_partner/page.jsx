@@ -166,7 +166,7 @@ const Partner = () => {
             <ul className="space-y-6">
               <li className="flex items-start">
                 <div className="flex-shrink-0">
-                  <span className="inline-flex items-center justify-center h-12 w-12 rounded-full bg-blue-900 text-white">
+                  <span className="inline-flex items-center justify-center h-12 w-12 rounded-full bg-green-500 text-white">
                     1
                   </span>
                 </div>
@@ -197,7 +197,7 @@ const Partner = () => {
               </li>
               <li className="flex items-start">
                 <div className="flex-shrink-0">
-                  <span className="inline-flex items-center justify-center h-12 w-12 rounded-full bg-yellow-700 text-white">
+                  <span className="inline-flex items-center justify-center h-12 w-12 rounded-full bg-green-500 text-white">
                     3
                   </span>
                 </div>

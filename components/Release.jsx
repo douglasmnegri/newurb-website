@@ -7,12 +7,12 @@ const Release = () => {
     <section className="flexCenter w-full flex-col pb-[100px]">
       <div className="get-app">
         <div className="z-20 flex w-full flex-1 flex-col justify-center gap-2">
-          <div className="flex items-center justify-around gap-12">
+          <div className="flex items-center justify-around gap-12 flex-col sm:flex-row">
             <div className="mr-8">
               {" "}
               {/* Added margin to the right side of the text */}
-              <h2 className="bold-40 lg:bold-64 xl:max-w-[320px]">Partners</h2>
-              <p className="regular-16 text-gray-10">
+              <h2 className="bold-40 lg:bold-64 xl:max-w-[320px] text-center">Partners</h2>
+              <p className="regular-16 text-gray-10 text-center">
                 NewUrb can count with some of the best partners in our region!
               </p>
             </div>

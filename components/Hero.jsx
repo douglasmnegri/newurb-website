@@ -5,20 +5,20 @@ import Button from "./Button";
 const Hero = () => {
   return (
     <section className="relative">
-      <div className="hidden lg:block relative">
+      <div className="relative">
         <div className="bg-cover bg-no-repeat h-dvh bg-fixed bg-center relative">
           <Image
-            src="/family.svg"
+            src="/family.png"
             alt="family"
             layout="fill"
             objectFit="cover"
           />
-          <div className="absolute inset-0"></div>{" "}
+          <div className="absolute inset-0"></div>
           {/* Dark blue overlay */}
         </div>
       </div>
 
-      <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-top items-left mt-72 ml-32">
+      <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-top items-left sm:mt-72 sm:ml-16 mt-56 ml-12">
         <div className="text-white justify-center">
           <h1 className="font-bold text-3xl lg:text-5xl">
             Urbanism as never seen before.

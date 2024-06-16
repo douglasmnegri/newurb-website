@@ -74,8 +74,8 @@ export const Property = () => {
       </section>
 
       <section className="bg-white py-12 flex justify-center">
-        <div className="bg-[rgb(237,191,133)] rounded-xl shadow-md px-6 pt-6 text-center max-w-6xl flex flex-col lg:flex-row items-start">
-          <div className="w-full lg:w-3/4 pr-8 lg:mb-0 my-12">
+        <div className="bg-[rgb(237,191,133)] rounded-xl shadow-md pl-6 pt-6 text-center max-w-6xl flex flex-col lg:flex-row items-start relative">
+          <div className="w-full lg:w-3/5 pr-8 lg:mb-0 my-8 ml-4">
             {/* Text content */}
             <h3 className="text-2xl lg:text-3xl font-bold mb-3">
               Benefits of Partnering with NewUrb
@@ -91,7 +91,7 @@ export const Property = () => {
               professionals, we ensure quality and efficiency throughout all
               project stages.
             </p>
-            <div className="text-center my-4 flex justify-center">
+            <div className="text-center my-8 flex justify-center">
               <Button
                 type="button"
                 variant={"btn_dark_green"}
@@ -99,15 +99,14 @@ export const Property = () => {
               />
             </div>
           </div>
-          <div className="w-full lg:w-1/3 pl-8 lg:self-end">
+          <div className="w-full lg:self-end left-0 absolute">
             {/* Image */}
             <div className="flex justify-end">
               <Image
-                src="/realtor-partner.png"
+                src="/glasses-model.png"
                 alt="Realtor Partner"
-                height={500}
-                width={500}
-                className="rounded-lg"
+                height={600}
+                width={600}
               />
             </div>
           </div>
