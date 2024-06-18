@@ -2,6 +2,8 @@ import React from "react";
 import Button from "./Button";
 import Image from "next/image";
 
+
+
 const Release = () => {
   return (
     <section className="flexCenter w-full flex-col pb-[100px]">
