@@ -61,7 +61,6 @@ export const FOOTER_CONTACT_INFO = {
   title: "footer.contact_us",
   links: [
     { label: "Mail", value: "parceria@newurb.com.br" },
-    { label: "Phone", value: "(48) 3036-9566" },
   ],
 };
 

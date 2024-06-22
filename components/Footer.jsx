@@ -10,22 +10,16 @@ const Footer = () => {
   const { t } = useTranslation();
 
   return (
-    <footer className="flexCenter mb-24 mt-8">
+    <footer className="flexCenter mb-24 mt-12">
       <div className="px-8 max-container flex w-full flex-col gap-14">
         <div className="flex flex-col justify-center lg:justify-around lg:flex-row">
           <div className="flex justify-center mb-10">
             <Link href="/">
-              <Image
-                src="/logo.png"
-                alt="logo"
-                width={150}
-                height={150}
-                layout="fixed"
-              />
+              <Image src="/logo.png" alt="logo" width={150} height={150} layout="fixed" />
             </Link>
           </div>
 
-          <div className="flex flex-col gap-24 justify-between lg:flex-row">
+          <div className="flex flex-col justify-between gap-10 xl:gap-24 lg:flex-row">
             {FOOTER_LINKS.map((columns) => (
               <FooterColumn title={t(columns.title)} key={columns.title}>
                 <ul className="regular-14 flex flex-col gap-4 text-gray-30">
@@ -81,7 +75,7 @@ const Footer = () => {
 const FooterColumn = ({ title, children }) => {
   return (
     <div className="flex flex-col gap-5 text-center">
-      <h4 className="bold-18 whitespace-nowrap">{title}</h4>
+      <h4 className="bold-16 whitespace-nowrap">{title}</h4>
       {children}
     </div>
   );

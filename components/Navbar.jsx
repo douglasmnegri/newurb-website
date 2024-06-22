@@ -14,10 +14,10 @@ const Navbar = () => {
     <nav>
       <div className="flex justify-end p-1 gap-1">
         <button onClick={() => handleChangeLanguage("en")}>
-          <Image src={"us.svg"} alt="us flag" width={20} height={20} />
+          <Image src={"/us.svg"} alt="us flag" width={20} height={20}/>
         </button>
         <button onClick={() => handleChangeLanguage("pt")}>
-          <Image src={"brazil.svg"} alt="brazil flag" width={20} height={20} />
+          <Image src={"/brazil.svg"} alt="brazil flag" width={20} height={20} />
         </button>
       </div>
       <div className="flexBetween max-container relative z-30 pt-2 pb-5 gap-5">
