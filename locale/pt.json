@@ -57,7 +57,7 @@
     "luciano_description": "Luciano, diretor financeiro, conduz estratégias fiscais, equilibrando orçamentos e investimentos meticulosamente, garantindo a estabilidade financeira da empresa em meio ao dinamismo das vendas e aquisições de terrenos."
   },
   "subdivisions": {
-    "title": "Subdivisions",
+    "title": "Loteamento",
     "total_area": "Área Total",
     "green_area": "Área Verde",
     "recreation_area": "Área Verde",
@@ -120,6 +120,7 @@
     "project_desc": "Trabalhando juntos, desenvolveremos um plano de ação detalhado para transformar seu terreno em um empreendimento de sucesso. A NewUrb Desenvolvimento Imobiliário gerenciará todas as etapas do processo, desde o planejamento até a execução.",
     "partner_benefits": "Benefícios de Parceria com a NewUrb",
     "benefits_desc": "Com vasta experiência no mercado imobiliário e um histórico comprovado de sucesso em projetos de loteamentos, nossa equipe na NewUrb oferece um profundo conhecimento da indústria e uma história de entrega de resultados excepcionais.",
-    "benefits_desc2": "Aproveitando uma ampla rede de parceiros, fornecedores e profissionais, garantimos qualidade e eficiência em todas as etapas do projeto."
+    "benefits_desc2": "Aproveitando uma ampla rede de parceiros, fornecedores e profissionais, garantimos qualidade e eficiência em todas as etapas do projeto.",
+    "button": "Envie seu terreno"
   }
 }
