@@ -335,8 +335,9 @@ body {
   scrollbar-width: none; /* Firefox */
 }
 
+
 .hamburger {
-  position: relative;
+  position: relative; /* Ensure it's relative so it stays in flow but can be on top */
   display: block;
   width: 25px;
   height: 35px; 
@@ -345,9 +346,9 @@ body {
   background: none;
   outline: none;
   border: none;
+  z-index: 99; /* Ensure it's above the mobile nav */
 }
 
-/* Styling for the bars */
 .hamburger .bar,
 .hamburger:after,
 .hamburger:before {
@@ -359,7 +360,6 @@ body {
   transition: 0.4s;
 }
 
-/* Ensure before and after pseudo-elements are correctly placed */
 .hamburger:before,
 .hamburger:after {
   position: absolute;
@@ -367,7 +367,6 @@ body {
   width: 100%;
 }
 
-/* Positioning of the pseudo-elements */
 .hamburger:before {
   top: 0;
 }
@@ -376,7 +375,6 @@ body {
   bottom: 0;
 }
 
-/* Transformations for the active state */
 .hamburger.is-active:before {
   transform: rotate(-45deg) translate(-5px, 4px);
 }
@@ -387,4 +385,21 @@ body {
 
 .hamburger.is-active .bar {
   opacity: 0;
+}
+
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  right: -100%; 
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+  z-index: 98;
+  transition: right 0.4s ease; 
+  overflow-y: auto;
+}
+
+.mobile-nav.is-active {
+  right: 0;
+  overflow-y: hidden;
 }

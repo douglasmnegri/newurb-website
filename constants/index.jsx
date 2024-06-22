@@ -5,6 +5,10 @@ export const NAV_LINKS = [
   { href: "/be_a_partner", key: "be_a_partner", label: "labels.be_a_partner" },
 ];
 
+export const PROPERTY_LINK = [
+  { href: "/about_us", key: "about_us", label: "labels.about_us" },
+];
+
 // CAMP SECTION
 export const PEOPLE_URL = [
   "/person-1.png",
