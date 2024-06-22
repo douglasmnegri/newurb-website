@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const Form = () => {
   const [name, setName] = useState("");
@@ -12,16 +13,14 @@ const Form = () => {
   const [isEmailFocused, setIsEmailFocused] = useState(false);
   const [isWhatsappFocused, setIsWhatsappFocused] = useState(false);
   const [isWebsiteFocused, setIsWebsiteFocused] = useState(false);
-
+  const { t } = useTranslation();
   return (
     <section className="pt-10 bg-[rgb(237,191,133)]">
       <div className="flex flex-col ml-12 lg:flex-row justify-center lg:justify-between relative">
         <div className="z-20 w-full lg:w-[40%] lg:ml-10 flex flex-col">
           <div className="relative">
-            <h2 className="bold-32 lg:bold-64 pb-2">Become our partner</h2>
-            <h5 className="lg:regular-32">
-              Sign up below to become part of our network of partner brokers
-            </h5>
+            <h2 className="bold-32 lg:bold-64 pb-2">{t("form.partner")}</h2>
+            <h5 className="lg:regular-32">{t("form.signup")}</h5>
 
             <form className="flex flex-col mt-5">
               <div className="mb-8 mt-4 relative">

@@ -1,9 +1,8 @@
-
 // NAVIGATION
 export const NAV_LINKS = [
-  { href: "/about_us", key: "about_us", label: "About us " },
-  { href: "/subdivisions", key: "subdivisions", label: "Subdivisions " },
-  { href: "/be_a_partner", key: "be_a_partner", label: "Be a partner " },
+  { href: "/about_us", key: "about_us", label: "labels.about_us" },
+  { href: "/subdivisions", key: "subdivisions", label: "labels.subdivisions" },
+  { href: "/be_a_partner", key: "be_a_partner", label: "labels.be_a_partner" },
 ];
 
 // CAMP SECTION
@@ -17,32 +16,28 @@ export const PEOPLE_URL = [
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: "Sustaintability",
+    title: "features.sustaintability",
     icon: "/sustaintability.svg",
     variant: "white",
-    description:
-      "Preserve nature’s legacy with sustainable land practices. Our commitment: eco-friendly development, biodiversity conservation, and responsible stewardship. Join us in cultivating a greener, healthier future for generations to come.",
+    description: "features_description.sus.description",
   },
   {
-    title: "Credibility",
+    title: "features.credibility",
     icon: "/credibility.svg",
     variant: "green",
-    description:
-      "Trust built on integrity and action. With transparent practices, certifications, and community engagement, we ensure our sustainability commitments are not just promises, but tangible contributions to a better world.",
+    description: "features_description.cred.description",
   },
   {
-    title: "Land Ventures",
+    title: "features.land_ventures",
     icon: "/land-ventures.svg",
     variant: "green",
-    description:
-      "Exploring sustainable land ventures: forging partnerships for responsible development and cultivating communities for a greener future. Offering land and condominium sales, ensuring profitability with ethical practices.",
+    description: "features_description.land.description",
   },
   {
-    title: "Our Location",
+    title: "features.our_location",
     icon: "/location.svg",
     variant: "orange",
-    description:
-      "Nestled in the heart of Santa Catarina state, we embark on a project acquiring plots through partnerships forged in Florianópolis. Join us in crafting a vision for sustainable land development.",
+    description: "features_description.loc.description",
   },
 ];
 
@@ -50,13 +45,15 @@ export const FEATURES = [
 export const FOOTER_LINKS = [
   {
     title: "SALES CENTER",
-    links: [
-      "(48) 3036-9566",
-    ],
+    links: ["(48) 3036-9566"],
   },
   {
     title: "OUR LOCATION",
-    links: ["R. Des. Pedro Silva, 2958", "Florianópolis - SC", "CEP: 88.080-701"],
+    links: [
+      "R. Des. Pedro Silva, 2958",
+      "Florianópolis - SC",
+      "CEP: 88.080-701",
+    ],
   },
 ];
 
@@ -70,18 +67,10 @@ export const FOOTER_CONTACT_INFO = {
 
 export const SOCIALS = {
   title: "Social",
-  links: [
-    "/instagram.svg",
-    "/facebook.svg",
-    "/youtube.svg",
-  ],
+  links: ["/instagram.svg", "/facebook.svg", "/youtube.svg"],
 };
 
 export const SOCIALS_PARTNERS = {
   title: "Social",
-  links: [
-    "/instagram.svg",
-    "/facebook.svg",
-    "/linkedin.svg",
-  ],
+  links: ["/instagram.svg", "/facebook.svg", "/linkedin.svg"],
 };

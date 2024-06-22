@@ -1,3 +1,32 @@
 {
-  "test": "NewUrb can count with some of the best partners in our region!"
+  "labels": {
+    "about_us": "About us",
+    "subdivisions": "Subdivisions",
+    "be_a_partner": "Be a partner",
+    "list_your_property": "List your property"
+  },
+  "hero": {
+    "urbanism": "Urbanism as never seen before",
+    "release": "Information about the release"
+  },
+  "features": {
+    "sustaintability": "Sustaintability",
+    "credibility": "Credibility",
+    "land_ventures": "Land Ventures",
+    "our_location": "Our Location"
+  },
+  "features_description": {
+    "sus.description": "Preserve nature’s legacy with sustainable land practices. Our commitment: eco-friendly development, biodiversity conservation, and responsible stewardship. Join us in cultivating a greener, healthier future for generations to come.",
+    "cred.description": "Trust built on integrity and action. With transparent practices, certifications, and community engagement, we ensure our sustainability commitments are not just promises, but tangible contributions to a better world.",
+    "land.description": "Exploring sustainable land ventures: forging partnerships for responsible development and cultivating communities for a greener future. Offering land and condominium sales, ensuring profitability with ethical practices.",
+    "loc.description": "Nestled in the heart of Santa Catarina state, we embark on a project acquiring plots through partnerships forged in Florianópolis. Join us in crafting a vision for sustainable land development."
+  },
+  "form": {
+    "signup": "Sign up below to become part of our network of partner brokers",
+    "partner": "Become our partner"
+  },
+  "lands": {
+    "title": "Decide your next big move!",
+    "text": "Discover your slice of paradise! Embrace endless possibilities onthis pristine plot of land. Build your dreams from the ground up. Your future oasis awaits. Interested in making it yours?"
+  }
 }

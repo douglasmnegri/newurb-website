@@ -1,28 +1,22 @@
 "use client";
-
+import React, { useState } from "react";
 import Features from "@/components/Features";
 import Footer from "@/components/Footer";
 import Form from "@/components/Form";
 import Hero from "@/components/Hero";
 import Land from "@/components/Land";
-import Release from "@/components/Release";
+import Partners from "@/components/Partners";
 import { useTranslation } from "react-i18next";
-import i18n from "./i18nConfig";
-import { useState } from "react";
+import { handleChangeLanguage } from "./languageUtils"; // Adjust the path as necessary
 
-export default function Home() {
-  // const {
-  //   t,
-  //   i18n: { changeLanguage, language },
-  // } = useTranslation();
+const Home = () => {
+  const { t, i18n: { language } } = useTranslation();
+  const [currentLanguage, setCurrentLanguage] = useState(language);
 
-  // const [currentLanguage, setCurrentLanguage] = useState(language);
-
-  // const handleChangeLanguage = () => {
-  //   const newLang = currentLanguage === "en" ? "pt" : "en";
-  //   changeLanguage(newLang);
-  //   setCurrentLanguage(newLang);
-  // };
+  const handleLanguageChange = (lang) => {
+    handleChangeLanguage(lang);
+    setCurrentLanguage(lang);
+  };
 
   return (
     <>
@@ -30,7 +24,11 @@ export default function Home() {
       <Features />
       <Form />
       <Land />
-      <Release />
+      <Partners />
+      <Footer />
     </>
   );
 }
+
+// Exporting Home component as default
+export default Home;

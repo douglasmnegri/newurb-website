@@ -1,3 +1,32 @@
 {
-    "test": "Newurb conta com alguns dos melhores parceiros de nossa região!"
+  "labels": {
+    "about_us": "Sobre nós",
+    "subdivisions": "Subdivisões",
+    "be_a_partner": "Seja um parceiro",
+    "list_your_property": "Liste sua propriedade"
+  },
+  "hero": {
+    "urbanism": "Urbanismo como nunca visto antes",
+    "release": "Informações sobre o lançamento"
+  },
+  "features": {
+    "sustaintability": "Sustentabilidade",
+    "credibility": "Credibilidade",
+    "land_ventures": "Empreendimentos",
+    "our_location": "Nossa Localização"
+  },
+  "features_description": {
+    "sus.description": "Preserve o legado da natureza com práticas sustentáveis de manejo de terras. Nosso compromisso: desenvolvimento eco-friendly, conservação da biodiversidade e gestão responsável. Junte-se a nós na promoção de um futuro mais verde e saudável para as próximas gerações.",
+    "cred.description": "Confiança construída com integridade e ação. Com práticas transparentes, certificações e engajamento comunitário, garantimos que nossos compromissos com a sustentabilidade não sejam apenas promessas, mas contribuições tangíveis para um mundo melhor.",
+    "land.description": "Explorando empreendimentos sustentáveis: estabelecendo parcerias para desenvolvimento responsável e cultivando comunidades para um futuro mais verde. Oferecendo vendas de terrenos e condomínios, garantindo rentabilidade com práticas éticas.",
+    "loc.description": "Localizado no coração do estado de Santa Catarina, embarcamos em um projeto adquirindo terrenos por meio de parcerias forjadas em Florianópolis. Junte-se a nós na criação de uma visão para o desenvolvimento sustentável de terras."
+  },
+  "form": {
+    "signup": "Cadastre-se abaixo para fazer parte de nossa rede de corretores parceiros",
+    "partner": "Seja nosso parceiro"
+  },
+  "lands": {
+    "title": "Decida seu próximo grande passo!",
+    "text": "Descubra seu pedaço de paraíso! Abrace possibilidades infinitas neste terreno intocado. Construa seus sonhos do zero. Seu oásis futuro espera por você. Interessado em torná-lo seu?"
+  }
 }

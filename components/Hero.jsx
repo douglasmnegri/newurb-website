@@ -1,8 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import Button from "./Button";
+import { useTranslation } from "react-i18next";
+import { handleChangeLanguage } from "@/app/languageUtils";
 
 const Hero = () => {
+  const {t} = useTranslation();
   return (
     <section className="relative">
       <div className="relative">
@@ -21,14 +24,14 @@ const Hero = () => {
       <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-top items-left sm:mt-72 sm:ml-16 mt-56 ml-12">
         <div className="text-white justify-center">
           <h1 className="font-bold text-3xl lg:text-5xl">
-            Urbanism as never seen before.
+            {t("hero.urbanism")}
           </h1>
 
           <div className="text-center mt-4">
             <Button
               type="button"
               variant={"btn_dark_green"}
-              title={"Information about the release"}
+              title={t("hero.release")}
             />
           </div>
         </div>
