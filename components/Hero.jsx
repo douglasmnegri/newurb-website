@@ -21,7 +21,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-top items-left sm:mt-72 sm:ml-16 mt-56 ml-12">
+      <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-top items-left sm:mt-72 sm:ml-12  mt-56 ml-4">
         <div className="text-white justify-center">
           <h1 className="font-bold text-3xl lg:text-5xl">
             {t("hero.urbanism")}

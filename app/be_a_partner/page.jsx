@@ -209,7 +209,7 @@ const Partner = () => {
                   href="mailto:julionegri@newurb.com.br"
                   className="text-blue-600 hover:underline"
                 >
-                  julionegri@newurb.com.br
+                  julio.negri@newurb.com.br
                 </a>
               </li>
               <li className="mb-2">
@@ -225,7 +225,7 @@ const Partner = () => {
           </div>
           <div className="mt-8">
             <a
-              href="mailto:julionegri@newurb.com.br"
+              href="mailto:julio.negri@newurb.com.br"
               className="bg-green-500 text-white px-6 py-3 rounded-md shadow-md hover:bg-green-900 transition-colors duration-300"
             >
               {t("bePartner.get_in_touch")}

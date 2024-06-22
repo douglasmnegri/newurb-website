@@ -10,17 +10,17 @@ const Release = () => {
       <div className="get-app">
         <div className="z-20 flex w-full flex-1 flex-col justify-center gap-2">
           <div className="flex items-center justify-around gap-12 flex-col sm:flex-row">
-            <div className="mr-8">
+            <div className="sm:mr-8">
               {" "}
               {/* Added margin to the right side of the text */}
-              <h2 className="bold-40 lg:bold-64 xl:max-w-[320px] text-center">
+              <h2 className="bold-40 lg:bold-64 xl:max-w-[320px] text-center mb-4">
                 {t("partners.title")}
               </h2>
               <p className="regular-16 text-gray-10 text-center">
                 {t("partners.text")}
               </p>
             </div>
-            <div className="flex gap-8">
+            <div className="flex flex-col gap-8 sm:flex-row">
               <div className="border-solid border-2 bg-white align-middle flex items-center justify-center rounded-full w-40 h-40 p-4">
                 <Image
                   src={"/logo-locates.png"}

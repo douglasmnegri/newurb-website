@@ -65,7 +65,7 @@ export const Property = () => {
                 <Button
                   type="button"
                   variant={"btn_dark_green"}
-                  title={t("property.submit")}
+                  title={t("property.button")}
                 />
               </Link>
             </div>
