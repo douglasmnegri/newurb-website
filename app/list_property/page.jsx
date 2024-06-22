@@ -50,7 +50,7 @@ export const Property = () => {
       <section className="bg-white py-12 flex justify-center">
         <div className="bg-[rgb(237,191,133)] rounded-xl shadow-md pl-6 pt-6 text-center w-11/12 2xl:w-7/12 flex flex-col lg:flex-row items-center lg:relative">
           <div className="w-full lg:w-3/5 pr-8 lg:mb-0 my-8 ml-4 lg:absolute">
-            <h3 className="text-2xl lg:text-3xl font-bold mb-3">
+            <h3 className="text-2xl lg:text-2xl font-bold mb-3">
               {t("property.partner_benefits")}
             </h3>
             <p className="mb-6 text-lg">{t("property.benefits_desc")}</p>
@@ -70,7 +70,7 @@ export const Property = () => {
               </Link>
             </div>
           </div>
-          <div className="w-full lg:self-end left-0 hidden lg:block">
+          <div className="w-full lg:self-end left-0  lg:block">
             <div className="flex justify-end">
               <Image
                 src="/glasses-model.png"

@@ -7,6 +7,7 @@ import Button from "./Button";
 import { useTranslation } from "react-i18next";
 import { handleChangeLanguage } from "@/app/languageUtils"; // Ensure this path is correct
 import { useEffect } from "react";
+import { PROPERTY_LINK } from "@/constants";
 
 const Navbar = () => {
   const { t } = useTranslation();
@@ -28,7 +29,7 @@ const Navbar = () => {
 
   const closeMenu = () => {
     setOpen(false);
-  }
+  };
 
   return (
     <nav>
@@ -86,10 +87,22 @@ const Navbar = () => {
               key={link.key}
               className="font-bold text-gray-50 flexCenter cursor-pointer pb-1.5 transitional-all hover:font-light"
             >
-              <Link href={link.href} onClick={closeMenu}>{t(link.label)}</Link>
+              <Link href={link.href} onClick={closeMenu}>
+                {t(link.label)}
+              </Link>
             </li>
           ))}
-          
+          {PROPERTY_LINK.map((link) => (
+            <li
+              key={link.key}
+              className="font-bold text-gray-50 flexCenter cursor-pointer pb-1.5 transitional-all hover:font-light"
+            >
+              <Link href={link.href} onClick={closeMenu}>
+                {t(link.label)}
+              </Link>
+            </li>
+          ))}
+
           <div className="flex gap-2 justify-center">
             <button onClick={() => handleChangeLanguage("en")}>
               <Image src={"/us.svg"} alt="us flag" width={22} height={22} />

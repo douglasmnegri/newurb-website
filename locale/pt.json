@@ -22,8 +22,11 @@
     "loc.description": "Localizado no coração do estado de Santa Catarina, embarcamos em um projeto adquirindo terrenos por meio de parcerias forjadas em Florianópolis. Junte-se a nós na criação de uma visão para o desenvolvimento sustentável de terras."
   },
   "form": {
-    "signup": "Cadastre-se abaixo para fazer parte de nossa rede de corretores parceiros",
-    "partner": "Seja nosso parceiro"
+    "signup": "Cadastre-se abaixo para fazer parte da nossa rede de corretores parceiros",
+    "partner": "Torne-se nosso parceiro!",
+    "realtor": "Desbloqueie seu potencial no mercado imobiliário! Junte-se a nós como corretor e embarque em uma jornada recompensadora de crescimento e sucesso",
+    "realtor2": "Descubra a liberdade para moldar sua carreira, fazer conexões significativas e prosperar no dinâmico mundo da propriedade. Comece sua jornada hoje!",
+    "button_text": "Junte-se Agora"
   },
   "lands": {
     "title": "Decida seu próximo grande passo!",

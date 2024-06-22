@@ -3,16 +3,18 @@ import React from "react";
 import Image from "next/image";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import Link from "next/link";
+import Button from "./Button";
 
 const Form = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [whatsapp, setWhatsapp] = useState("");
-  const [website, setWebsite] = useState("");
-  const [isNameFocused, setIsNameFocused] = useState(false);
-  const [isEmailFocused, setIsEmailFocused] = useState(false);
-  const [isWhatsappFocused, setIsWhatsappFocused] = useState(false);
-  const [isWebsiteFocused, setIsWebsiteFocused] = useState(false);
+  // const [name, setName] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [whatsapp, setWhatsapp] = useState("");
+  // const [website, setWebsite] = useState("");
+  // const [isNameFocused, setIsNameFocused] = useState(false);
+  // const [isEmailFocused, setIsEmailFocused] = useState(false);
+  // const [isWhatsappFocused, setIsWhatsappFocused] = useState(false);
+  // const [isWebsiteFocused, setIsWebsiteFocused] = useState(false);
   const { t } = useTranslation();
   return (
     <section className="pt-10 bg-[rgb(237,191,133)]">
@@ -20,10 +22,27 @@ const Form = () => {
         <div className="z-20 w-full lg:w-[40%] lg:ml-10 flex flex-col">
           <div className="relative">
             <h2 className="bold-32 lg:bold-64 pb-2">{t("form.partner")}</h2>
-            <h5 className="lg:regular-32">{t("form.signup")}</h5>
-
+            <h5 className="lg:regular-20">{t("form.realtor")}</h5>
+            <br></br>
+            <h5 className="lg:regular-20">{t("form.realtor2")}</h5>
             <form className="flex flex-col mt-5">
-              <div className="mb-8 mt-4 relative">
+              <div>
+                <div className="text-center my-8 flex justify-center">
+                  <Link
+                    href={
+                      "https://docs.google.com/forms/d/e/1FAIpQLSfQ2qUSgPvOjtL90OkhKjFzY-vXTFGK8DnXmm9lN5kotRoNqg/viewform"
+                    }
+                    target="_blank"
+                  >
+                    <Button
+                      type="button"
+                      variant={"btn_dark_green"}
+                      title={t("form.button_text")}
+                    />
+                  </Link>
+                </div>
+              </div>
+              {/* <div className="mb-8 mt-4 relative">
                 <input
                   type="text"
                   id="name"
@@ -125,7 +144,7 @@ const Form = () => {
                 className="p-2 bg-blue-900 text-white rounded hover:bg-blue-600 mr-12 mb-8"
               >
                 Submit
-              </button>
+              </button> */}
             </form>
           </div>
         </div>

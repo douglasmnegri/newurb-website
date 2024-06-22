@@ -1,127 +1,129 @@
 {
-    "labels": {
-      "about_us": "Sobre nosotros",
-      "subdivisions": "Subdivisiones",
-      "be_a_partner": "Sé un socio",
-      "list_your_property": "Lista tu propiedad"
-    },
-    "hero": {
-      "urbanism": "Urbanismo como nunca antes",
-      "release": "Información sobre el lanzamiento"
-    },
-    "features": {
-      "sustaintability": "Sostenibilidad",
-      "credibility": "Credibilidad",
-      "land_ventures": "Emprendimientos",
-      "our_location": "Nuestra ubicación"
-    },
-    "features_description": {
-      "sus.description": "Preserva el legado de la naturaleza con prácticas sostenibles de manejo de tierras. Nuestro compromiso: desarrollo eco-amigable, conservación de la biodiversidad y gestión responsable. Únete a nosotros para promover un futuro más verde y saludable para las próximas generaciones.",
-      "cred.description": "Confianza construida con integridad y acción. Con prácticas transparentes, certificaciones y compromiso comunitario, garantizamos que nuestras promesas de sostenibilidad no sean solo palabras, sino contribuciones tangibles a un mundo mejor.",
-      "land.description": "Explorando emprendimientos sostenibles: estableciendo asociaciones para un desarrollo responsable y cultivando comunidades para un futuro más verde. Ofrecemos ventas de terrenos y condominios, garantizando rentabilidad con prácticas éticas.",
-      "loc.description": "Ubicado en el corazón del estado de Santa Catarina, nos embarcamos en un proyecto adquiriendo terrenos mediante asociaciones forjadas en Florianópolis. Únete a nosotros en la creación de una visión para el desarrollo sostenible de tierras."
-    },
-    "form": {
-      "signup": "Regístrate a continuación para unirte a nuestra red de corredores asociados",
-      "partner": "Sé nuestro socio"
-    },
-    "lands": {
-      "title": "¡Decide tu próximo gran paso!",
-      "text": "Descubre tu pedazo de paraíso. Abraza infinitas posibilidades en este terreno virgen. Construye tus sueños desde cero. Tu oasis futuro te espera. ¿Interesado en hacerlo tuyo?"
-    },
-    "partners": {
-      "title": "Socios",
-      "text": "¡NewUrb cuenta con algunos de los mejores socios en nuestra región!"
-    },
-    "footer": {
-      "sales_center": "CENTRO DE VENTAS",
-      "our_location": "NUESTRA UBICACIÓN",
-      "contact_us": "CONTACTO",
-      "socials": "REDES SOCIALES"
-    },
-    "aboutUs": {
-      "about_us": "Sobre nosotros",
-      "description": "NewUrb es una empresa joven, surgida de la asociación entre el Dr. Luciano Capoano, un consultor experimentado y abogado especializado en Derecho Inmobiliario, y Julio Negri, administrador y CEO de BitHouse, una plataforma innovadora enfocada en la comercialización de terrenos y lotes.",
-      "description2": "La empresa está estructurada como un conglomerado inmobiliario, con operaciones centradas en la estructuración y desarrollo de loteamientos en el estado de Santa Catarina. Esta asociación entre experiencia legal y tecnológica nos permite ofrecer soluciones diferenciadas e innovadoras en el mercado inmobiliario, con el objetivo de crear comunidades sostenibles y prósperas.",
-      "purpose": "Propósito",
-      "purpose_description": "Estamos comprometidos a ofrecer más que simples terrenos, sino oportunidades para desarrollar espacios que promuevan una vida de calidad en armonía con la naturaleza.",
-      "mission": "Misión",
-      "mission_description": "Nuestra misión es proporcionar terrenos que sirvan de base para el desarrollo de espacios residenciales y comerciales que promuevan calidad de vida y sostenibilidad.",
-      "vision": "Visión",
-      "vision_description": "Nuestra visión es ser líderes en el sector de loteamientos, transformando áreas en comunidades planificadas que se destacan por la sostenibilidad, calidad de vida e integración con el entorno. Queremos ser reconocidos como agentes de cambio positivo, contribuyendo al desarrollo de áreas que ofrezcan valor duradero para las generaciones futuras.",
-      "team": "El equipo detrás de NewUrb",
-      "team_subtext": "CONOCE AL EQUIPO QUE HACE TODO POSIBLE",
-      "julio_occupation": "Director de Ventas",
-      "julio_description": "Especializado en desarrollo de terrenos, Julio, el Director de Ventas, navega hábilmente en las negociaciones de terrenos, maximizando el beneficio y la oportunidad con visión estratégica y pasión por el crecimiento.",
-      "luciano_occupation": "Director Financiero",
-      "luciano_description": "Luciano, director financiero, lidera estrategias fiscales, equilibrando presupuestos e inversiones meticulosamente, garantizando la estabilidad financiera de la empresa en medio del dinamismo de las ventas y adquisiciones de terrenos."
-    },
-    "subdivisions": {
-      "title": "Loteamiento",
-      "total_area": "Área Total",
-      "green_area": "Área Verde",
-      "recreation_area": "Área Recreativa",
-      "sub": "Lotes",
-      "construction": "En construcción"
-    },
-    "bePartner": {
-      "title": "Socios",
-      "description": "Somos una empresa dedicada a la construcción de loteamientos de alta calidad y siempre estamos en busca de proveedores y proveedores de servicios que compartan nuestro compromiso con la excelencia. Si eres un profesional o una empresa que ofrece soluciones para la construcción de loteamientos, esta es la oportunidad perfecta para establecer una asociación exitosa.",
-      "benefits_title": "Beneficios de ser nuestro socio",
-      "opportunities": "Oportunidades de Negocio",
-      "opportunities_desc": "Participación en proyectos de gran escala con alta visibilidad.",
-      "network": "Networking",
-      "network_desc": "Conexión con otros profesionales y empresas líderes en el sector inmobiliario.",
-      "growth": "Crecimiento Conjunto",
-      "growth_desc": "Potencial de crecimiento y desarrollo conjunto con nuestro grupo empresarial inmobiliario.",
-      "partners": "Socios que estamos buscando",
-      "realtors": "Agentes Inmobiliarios",
-      "realtors_desc": "Agentes inmobiliarios que pueden ayudarnos a comercializar nuestros loteamientos.",
-      "designer": "Diseño y Arquitectura",
-      "designer_desc": "Estudios de arquitectura y diseño para crear proyectos estéticamente agradables para nuestros loteamientos.",
-      "engineers": "Ingenieros Ambientales y Civiles",
-      "engineers_desc": "Empresas de ingeniería civil y ambiental para garantizar que nuestros loteamientos se construyan de manera sostenible y eficiente.",
-      "landscaper": "Paisajista",
-      "landscaper_desc": "Diseñadores de paisajes para mejorar la belleza y funcionalidad de nuestros loteamientos.",
-      "topography": "Topografía",
-      "topography_desc": "Servicios de topografía para proporcionar medidas precisas del terreno para nuestros loteamientos.",
-      "earthwork": "Movimiento de Tierras",
-      "earthwork_desc": "Servicios de movimiento de tierras para preparar el terreno para la construcción en nuestros loteamientos.",
-      "paving": "Pavimentación y Drenaje",
-      "paving_desc": "Empresas de infraestructura para proporcionar pavimentación, drenaje y suministro de agua.",
-      "supply": "Suministro",
-      "supply_desc": "Proveedores de materiales de construcción y suministros para nuestros loteamientos.",
-      "sewage": "Saneamiento",
-      "sewage_desc": "Empresas de infraestructura para proporcionar servicios de red de alcantarillado para nuestros loteamientos.",
-      "become_partner": "Cómo convertirse en un socio",
-      "submit": "Envía tu propuesta",
-      "submit_desc": "Completa nuestro formulario de registro con información detallada sobre tu empresa y los servicios que ofreces.",
-      "eval": "Evaluación",
-      "eval_desc": "Nuestro equipo de expertos evaluará tu propuesta en función de criterios de calidad, experiencia y compatibilidad con nuestros proyectos.",
-      "contact": "Contacto",
-      "contact_desc": "Nos pondremos en contacto para discutir oportunidades de asociación y los próximos pasos.",
-      "contact_us": "Contáctenos",
-      "contact_us_desc": "Para más información o dudas, no dude en contactar a nuestro equipo de asociaciones:",
-      "phone": "Teléfono",
-      "get_in_touch": "Ponte en contacto"
-    },
-    "property": {
-      "title": "Ofrezca su Terreno",
-      "subtext": "¡Transforme su terreno en un emprendimiento exitoso!",
-      "description": "En NewUrb Desarrollo Inmobiliario, siempre estamos en busca de nuevas áreas con potencial para desarrollo. Si posees un terreno y deseas explorar sus posibilidades, estamos aquí para ayudarte. Ofrecemos análisis de viabilidad y oportunidades de asociación para convertir tu terreno en un proyecto lucrativo.",
-      "process": "Nuestro Proceso",
-      "submit": "1. Envía la Información de tu Terreno",
-      "submit_desc": "Completa el formulario a continuación con detalles sobre tu terreno, incluida ubicación, tamaño, zonificación y cualquier otra información relevante.",
-      "analysis": "2. Análisis de Viabilidad",
-      "analysis_desc": "Nuestro equipo de expertos realizará un análisis detallado de tu terreno para evaluar el potencial de desarrollo. Este análisis incluye aspectos técnicos, legales y de mercado.",
-      "partnership": "3. Propuesta de Asociación",
-      "partnership_desc": "Basándonos en el análisis, presentaremos una propuesta de asociación personalizada. Esta propuesta puede incluir la estructuración del proyecto y acuerdos de reparto de beneficios.",
-      "project": "4. Desarrollo del Proyecto",
-      "project_desc": "Trabajando juntos, desarrollaremos un plan de acción detallado para convertir tu terreno en un emprendimiento exitoso. NewUrb Desarrollo Inmobiliario gestionará todas las etapas del proceso, desde la planificación hasta la ejecución.",
-      "partner_benefits": "Beneficios de Asociarse con NewUrb",
-      "benefits_desc": "Con amplia experiencia en el mercado inmobiliario y un historial probado de éxito en proyectos de loteamientos, nuestro equipo en NewUrb ofrece un profundo conocimiento de la industria y una trayectoria de entrega de resultados excepcionales.",
-      "benefits_desc2": "Aprovechando una amplia red de socios, proveedores y profesionales, garantizamos calidad y eficiencia en todas las etapas del proyecto.",
-      "button": "Envía tu terreno"
-    }
+  "labels": {
+    "about_us": "Sobre nosotros",
+    "subdivisions": "Subdivisiones",
+    "be_a_partner": "Sé un socio",
+    "list_your_property": "Lista tu propiedad"
+  },
+  "hero": {
+    "urbanism": "Urbanismo como nunca antes",
+    "release": "Información sobre el lanzamiento"
+  },
+  "features": {
+    "sustaintability": "Sostenibilidad",
+    "credibility": "Credibilidad",
+    "land_ventures": "Emprendimientos",
+    "our_location": "Nuestra ubicación"
+  },
+  "features_description": {
+    "sus.description": "Preserva el legado de la naturaleza con prácticas sostenibles de manejo de tierras. Nuestro compromiso: desarrollo eco-amigable, conservación de la biodiversidad y gestión responsable. Únete a nosotros para promover un futuro más verde y saludable para las próximas generaciones.",
+    "cred.description": "Confianza construida con integridad y acción. Con prácticas transparentes, certificaciones y compromiso comunitario, garantizamos que nuestras promesas de sostenibilidad no sean solo palabras, sino contribuciones tangibles a un mundo mejor.",
+    "land.description": "Explorando emprendimientos sostenibles: estableciendo asociaciones para un desarrollo responsable y cultivando comunidades para un futuro más verde. Ofrecemos ventas de terrenos y condominios, garantizando rentabilidad con prácticas éticas.",
+    "loc.description": "Ubicado en el corazón del estado de Santa Catarina, nos embarcamos en un proyecto adquiriendo terrenos mediante asociaciones forjadas en Florianópolis. Únete a nosotros en la creación de una visión para el desarrollo sostenible de tierras."
+  },
+  "form": {
+    "signup": "Regístrate a continuación para ser parte de nuestra red de corredores asociados",
+    "partner": "¡Conviértete en nuestro socio!",
+    "realtor": "¡Desbloquea tu potencial en bienes raíces! Únete a nosotros como agente inmobiliario y emprende un viaje gratificante de crecimiento y éxito",
+    "realtor2": "Descubre la libertad de moldear tu carrera, hacer conexiones significativas y prosperar en el dinámico mundo de la propiedad. ¡Comienza tu viaje hoy!",
+    "button_text": "Únete Ahora"
+  },
+  "lands": {
+    "title": "¡Decide tu próximo gran paso!",
+    "text": "Descubre tu pedazo de paraíso. Abraza infinitas posibilidades en este terreno virgen. Construye tus sueños desde cero. Tu oasis futuro te espera. ¿Interesado en hacerlo tuyo?"
+  },
+  "partners": {
+    "title": "Socios",
+    "text": "¡NewUrb cuenta con algunos de los mejores socios en nuestra región!"
+  },
+  "footer": {
+    "sales_center": "CENTRO DE VENTAS",
+    "our_location": "NUESTRA UBICACIÓN",
+    "contact_us": "CONTACTO",
+    "socials": "REDES SOCIALES"
+  },
+  "aboutUs": {
+    "about_us": "Sobre nosotros",
+    "description": "NewUrb es una empresa joven, surgida de la asociación entre el Dr. Luciano Capoano, un consultor experimentado y abogado especializado en Derecho Inmobiliario, y Julio Negri, administrador y CEO de BitHouse, una plataforma innovadora enfocada en la comercialización de terrenos y lotes.",
+    "description2": "La empresa está estructurada como un conglomerado inmobiliario, con operaciones centradas en la estructuración y desarrollo de loteamientos en el estado de Santa Catarina. Esta asociación entre experiencia legal y tecnológica nos permite ofrecer soluciones diferenciadas e innovadoras en el mercado inmobiliario, con el objetivo de crear comunidades sostenibles y prósperas.",
+    "purpose": "Propósito",
+    "purpose_description": "Estamos comprometidos a ofrecer más que simples terrenos, sino oportunidades para desarrollar espacios que promuevan una vida de calidad en armonía con la naturaleza.",
+    "mission": "Misión",
+    "mission_description": "Nuestra misión es proporcionar terrenos que sirvan de base para el desarrollo de espacios residenciales y comerciales que promuevan calidad de vida y sostenibilidad.",
+    "vision": "Visión",
+    "vision_description": "Nuestra visión es ser líderes en el sector de loteamientos, transformando áreas en comunidades planificadas que se destacan por la sostenibilidad, calidad de vida e integración con el entorno. Queremos ser reconocidos como agentes de cambio positivo, contribuyendo al desarrollo de áreas que ofrezcan valor duradero para las generaciones futuras.",
+    "team": "El equipo detrás de NewUrb",
+    "team_subtext": "CONOCE AL EQUIPO QUE HACE TODO POSIBLE",
+    "julio_occupation": "Director de Ventas",
+    "julio_description": "Especializado en desarrollo de terrenos, Julio, el Director de Ventas, navega hábilmente en las negociaciones de terrenos, maximizando el beneficio y la oportunidad con visión estratégica y pasión por el crecimiento.",
+    "luciano_occupation": "Director Financiero",
+    "luciano_description": "Luciano, director financiero, lidera estrategias fiscales, equilibrando presupuestos e inversiones meticulosamente, garantizando la estabilidad financiera de la empresa en medio del dinamismo de las ventas y adquisiciones de terrenos."
+  },
+  "subdivisions": {
+    "title": "Loteamiento",
+    "total_area": "Área Total",
+    "green_area": "Área Verde",
+    "recreation_area": "Área Recreativa",
+    "sub": "Lotes",
+    "construction": "En construcción"
+  },
+  "bePartner": {
+    "title": "Socios",
+    "description": "Somos una empresa dedicada a la construcción de loteamientos de alta calidad y siempre estamos en busca de proveedores y proveedores de servicios que compartan nuestro compromiso con la excelencia. Si eres un profesional o una empresa que ofrece soluciones para la construcción de loteamientos, esta es la oportunidad perfecta para establecer una asociación exitosa.",
+    "benefits_title": "Beneficios de ser nuestro socio",
+    "opportunities": "Oportunidades de Negocio",
+    "opportunities_desc": "Participación en proyectos de gran escala con alta visibilidad.",
+    "network": "Networking",
+    "network_desc": "Conexión con otros profesionales y empresas líderes en el sector inmobiliario.",
+    "growth": "Crecimiento Conjunto",
+    "growth_desc": "Potencial de crecimiento y desarrollo conjunto con nuestro grupo empresarial inmobiliario.",
+    "partners": "Socios que estamos buscando",
+    "realtors": "Agentes Inmobiliarios",
+    "realtors_desc": "Agentes inmobiliarios que pueden ayudarnos a comercializar nuestros loteamientos.",
+    "designer": "Diseño y Arquitectura",
+    "designer_desc": "Estudios de arquitectura y diseño para crear proyectos estéticamente agradables para nuestros loteamientos.",
+    "engineers": "Ingenieros Ambientales y Civiles",
+    "engineers_desc": "Empresas de ingeniería civil y ambiental para garantizar que nuestros loteamientos se construyan de manera sostenible y eficiente.",
+    "landscaper": "Paisajista",
+    "landscaper_desc": "Diseñadores de paisajes para mejorar la belleza y funcionalidad de nuestros loteamientos.",
+    "topography": "Topografía",
+    "topography_desc": "Servicios de topografía para proporcionar medidas precisas del terreno para nuestros loteamientos.",
+    "earthwork": "Movimiento de Tierras",
+    "earthwork_desc": "Servicios de movimiento de tierras para preparar el terreno para la construcción en nuestros loteamientos.",
+    "paving": "Pavimentación y Drenaje",
+    "paving_desc": "Empresas de infraestructura para proporcionar pavimentación, drenaje y suministro de agua.",
+    "supply": "Suministro",
+    "supply_desc": "Proveedores de materiales de construcción y suministros para nuestros loteamientos.",
+    "sewage": "Saneamiento",
+    "sewage_desc": "Empresas de infraestructura para proporcionar servicios de red de alcantarillado para nuestros loteamientos.",
+    "become_partner": "Cómo convertirse en un socio",
+    "submit": "Envía tu propuesta",
+    "submit_desc": "Completa nuestro formulario de registro con información detallada sobre tu empresa y los servicios que ofreces.",
+    "eval": "Evaluación",
+    "eval_desc": "Nuestro equipo de expertos evaluará tu propuesta en función de criterios de calidad, experiencia y compatibilidad con nuestros proyectos.",
+    "contact": "Contacto",
+    "contact_desc": "Nos pondremos en contacto para discutir oportunidades de asociación y los próximos pasos.",
+    "contact_us": "Contáctenos",
+    "contact_us_desc": "Para más información o dudas, no dude en contactar a nuestro equipo de asociaciones:",
+    "phone": "Teléfono",
+    "get_in_touch": "Ponte en contacto"
+  },
+  "property": {
+    "title": "Ofrezca su Terreno",
+    "subtext": "¡Transforme su terreno en un emprendimiento exitoso!",
+    "description": "En NewUrb Desarrollo Inmobiliario, siempre estamos en busca de nuevas áreas con potencial para desarrollo. Si posees un terreno y deseas explorar sus posibilidades, estamos aquí para ayudarte. Ofrecemos análisis de viabilidad y oportunidades de asociación para convertir tu terreno en un proyecto lucrativo.",
+    "process": "Nuestro Proceso",
+    "submit": "1. Envía la Información de tu Terreno",
+    "submit_desc": "Completa el formulario a continuación con detalles sobre tu terreno, incluida ubicación, tamaño, zonificación y cualquier otra información relevante.",
+    "analysis": "2. Análisis de Viabilidad",
+    "analysis_desc": "Nuestro equipo de expertos realizará un análisis detallado de tu terreno para evaluar el potencial de desarrollo. Este análisis incluye aspectos técnicos, legales y de mercado.",
+    "partnership": "3. Propuesta de Asociación",
+    "partnership_desc": "Basándonos en el análisis, presentaremos una propuesta de asociación personalizada. Esta propuesta puede incluir la estructuración del proyecto y acuerdos de reparto de beneficios.",
+    "project": "4. Desarrollo del Proyecto",
+    "project_desc": "Trabajando juntos, desarrollaremos un plan de acción detallado para convertir tu terreno en un emprendimiento exitoso. NewUrb Desarrollo Inmobiliario gestionará todas las etapas del proceso, desde la planificación hasta la ejecución.",
+    "partner_benefits": "Beneficios de Asociarse con NewUrb",
+    "benefits_desc": "Con amplia experiencia en el mercado inmobiliario y un historial probado de éxito en proyectos de loteamientos, nuestro equipo en NewUrb ofrece un profundo conocimiento de la industria y una trayectoria de entrega de resultados excepcionales.",
+    "benefits_desc2": "Aprovechando una amplia red de socios, proveedores y profesionales, garantizamos calidad y eficiencia en todas las etapas del proyecto.",
+    "button": "Envía tu terreno"
   }
-  
+}

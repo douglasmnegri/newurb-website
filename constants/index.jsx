@@ -6,7 +6,11 @@ export const NAV_LINKS = [
 ];
 
 export const PROPERTY_LINK = [
-  { href: "/about_us", key: "about_us", label: "labels.about_us" },
+  {
+    href: "/list_property",
+    key: "list_property",
+    label: "labels.list_your_property",
+  },
 ];
 
 // CAMP SECTION
@@ -63,9 +67,7 @@ export const FOOTER_LINKS = [
 
 export const FOOTER_CONTACT_INFO = {
   title: "footer.contact_us",
-  links: [
-    { label: "Mail", value: "parceria@newurb.com.br" },
-  ],
+  links: [{ label: "Mail", value: "parceria@newurb.com.br" }],
 };
 
 export const SOCIALS = {
