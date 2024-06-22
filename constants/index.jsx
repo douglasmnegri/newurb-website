@@ -44,11 +44,11 @@ export const FEATURES = [
 // FOOTER SECTION
 export const FOOTER_LINKS = [
   {
-    title: "SALES CENTER",
+    title: "footer.sales_center",
     links: ["(48) 3036-9566"],
   },
   {
-    title: "OUR LOCATION",
+    title: "footer.our_location",
     links: [
       "R. Des. Pedro Silva, 2958",
       "Florianópolis - SC",
@@ -58,7 +58,7 @@ export const FOOTER_LINKS = [
 ];
 
 export const FOOTER_CONTACT_INFO = {
-  title: "CONTACT US",
+  title: "footer.contact_us",
   links: [
     { label: "Mail", value: "parceria@newurb.com.br" },
     { label: "Phone", value: "(48) 3036-9566" },
@@ -66,7 +66,7 @@ export const FOOTER_CONTACT_INFO = {
 };
 
 export const SOCIALS = {
-  title: "Social",
+  title: "footer.socials",
   links: ["/instagram.svg", "/facebook.svg", "/youtube.svg"],
 };
 

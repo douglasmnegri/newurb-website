@@ -1,10 +1,10 @@
 import React from "react";
 import Button from "./Button";
 import Image from "next/image";
-
-
+import { useTranslation } from "react-i18next";
 
 const Release = () => {
+  const { t } = useTranslation();
   return (
     <section className="flexCenter w-full flex-col pb-[100px]">
       <div className="get-app">
@@ -13,9 +13,11 @@ const Release = () => {
             <div className="mr-8">
               {" "}
               {/* Added margin to the right side of the text */}
-              <h2 className="bold-40 lg:bold-64 xl:max-w-[320px] text-center">Partners</h2>
+              <h2 className="bold-40 lg:bold-64 xl:max-w-[320px] text-center">
+                {t("partners.title")}
+              </h2>
               <p className="regular-16 text-gray-10 text-center">
-                NewUrb can count with some of the best partners in our region!
+                {t("partners.text")}
               </p>
             </div>
             <div className="flex gap-8">

@@ -1,10 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
+"use client";
 import React from "react";
 import Link from "next/link";
 import { SOCIALS, SOCIALS_PARTNERS } from "@/constants";
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
 
 function Investors() {
+  const { t } = useTranslation();
   let message = `There are many variations of passages of Lorem Ipsum available but the \n majority have suffered alteration in some injected humour.`;
   return (
     <>
@@ -13,21 +16,11 @@ function Investors() {
         <div className="container mx-auto text-center max-w-4xl">
           {" "}
           {/* Added max-w-4xl class */}
-          <h1 className="text-4xl font-bold mb-4">About Us</h1>
-          <p className="text-lg text-gray-700">
-            NewUrb is a young company, born from the partnership between Dr.
-            Luciano Capoano, an experienced consultant and lawyer specialized in
-            Real Estate Law, and Julio Negri, administrator and CEO of BitHouse,
-            an innovative platform focused on land and lot commercialization.
-          </p>
+          <h1 className="text-4xl font-bold mb-4">{t("aboutUs.about_us")}</h1>
+          <p className="text-lg text-gray-700">{t("aboutUs.description")}</p>
           <p className="text-lg text-gray-700">
             <br />
-            <br /> The company is structured as a real estate business holding,
-            with its operations focused on the structuring and development of
-            subdivisions in the state of Santa Catarina. This partnership
-            between legal and technological expertise allows us to offer
-            differentiated and innovative solutions in the real estate market,
-            with the goal of creating sustainable and prosperous communities.
+            <br /> {t("aboutUs.description2")}
           </p>
         </div>
       </section>
@@ -46,11 +39,11 @@ function Investors() {
                   />
                 </div>
                 {/* Random symbol as icon */}
-                <h3 className="text-xl font-semibold mb-2">Purpose</h3>
+                <h3 className="text-xl font-semibold mb-2">
+                  {t("aboutUs.purpose")}
+                </h3>
                 <p className="text-gray-700">
-                  We are committed to offering more than just plots of land, but
-                  opportunities for developing spaces that promote a quality
-                  life in harmony with nature.
+                  {t("aboutUs.purpose_description")}
                 </p>
               </div>
             </div>
@@ -66,11 +59,11 @@ function Investors() {
                   />
                 </div>
                 {/* Random symbol as icon */}
-                <h3 className="text-xl font-semibold mb-2">Mission</h3>
+                <h3 className="text-xl font-semibold mb-2">
+                  {t("aboutUs.mission")}
+                </h3>
                 <p className="text-gray-700">
-                  Our mission is to provide plots that serve as the foundation
-                  for developing residential and commercial spaces that promote
-                  quality of life and sustainability.
+                  {t("aboutUs.mission_description")}
                 </p>
               </div>
             </div>
@@ -87,14 +80,11 @@ function Investors() {
                 />
               </div>
               {/* Random symbol as icon */}
-              <h3 className="text-xl font-semibold mb-2">Vision</h3>
+              <h3 className="text-xl font-semibold mb-2">
+                {t("aboutUs.vision")}
+              </h3>
               <p className="text-gray-700 max-w-2xl mx-auto">
-                Our vision is to be leaders in the subdivision sector,
-                transforming areas into planned communities that stand out for
-                their sustainability, quality of life, and integration with the
-                surroundings. We want to be recognized as agents of positive
-                change, contributing to the development of areas that offer
-                lasting value for future generations.
+                {t("aboutUs.vision_description")}
               </p>
             </div>
           </div>
@@ -105,10 +95,10 @@ function Investors() {
           <div className="flex flex-wrap justify-center">
             <div className="w-full">
               <h1 className="text-4xl text-black font-bold text-center mb-6">
-                THE TEAM BEHIND NEW URB
+                {t("aboutUs.team")}
               </h1>
-              <h3 className="text-gray-600 text-center mb-8">
-                MEET THE TEAM THAT MAKES EVERYTHING POSSIBLE
+              <h3 className="text-gray-600 font-bold text-center mb-8">
+                {t("aboutUs.team_subtext")}{" "}
               </h3>
             </div>
             <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
@@ -123,13 +113,10 @@ function Investors() {
                       alt="pic"
                     />
                     <h3 className="text-lg font-semibold mb-2">JULIO NEGRI</h3>
-                    <p className="text-sm mb-4">Sales Director</p>
-                    <p className="text-sm">
-                      Specialized in land development, Julio, sales director,
-                      navigates land deals deftly, maximizing profit and
-                      opportunity with strategic vision and a passion for
-                      growth.
+                    <p className="text-sm mb-4">
+                      {t("aboutUs.julio_occupation")}
                     </p>
+                    <p className="text-sm">{t("aboutUs.julio_description")}</p>
                   </div>
                   <ul className="regular-8 flex gap-2 text-gray-30 items-center justify-center mt-3">
                     {SOCIALS_PARTNERS.links.map((link, index) => (
@@ -156,12 +143,11 @@ function Investors() {
                     <h3 className="text-lg font-semibold mb-2">
                       LUCIANO CAPUANO
                     </h3>
-                    <p className="text-sm mb-4">Finance Director</p>
+                    <p className="text-sm mb-4">
+                      {t("aboutUs.luciano_occupation")}
+                    </p>
                     <p className="text-sm">
-                      Luciano, finance director, steers fiscal strategies,
-                      balancing budgets and investments meticulously,
-                      safeguarding the company's financial stability amid the
-                      dynamic terrain of land sales and acquisitions.
+                      {t("aboutUs.luciano_description")}
                     </p>
                   </div>
                   <ul className="regular-8 flex gap-2 text-gray-30 items-center justify-center mt-3">

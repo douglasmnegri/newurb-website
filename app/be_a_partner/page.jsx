@@ -5,26 +5,20 @@ import Image from "next/image";
 import { useTranslation } from "react-i18next";
 
 const Partner = () => {
+  const { t } = useTranslation();
   return (
     <>
       {/* About Us Section */}
-      <section className="bg-white py-12"> 
+      <section className="bg-white py-12">
         <div className="container mx-auto text-center max-w-4xl">
-          <h1 className="text-4xl font-bold mb-4">Partners</h1>
-          <p className="text-lg text-gray-700">
-            We are a company dedicated to the construction of high-quality
-            subdivisions, and we are always looking for suppliers and service
-            providers who share our commitment to excellence. If you are a
-            professional or company that offers solutions for subdivision
-            construction, this is the perfect opportunity to establish a
-            successful partnership.
-          </p>
+          <h1 className="text-4xl font-bold mb-4">{t("bePartner.title")}</h1>
+          <p className="text-lg text-gray-700">{t("bePartner.description")}</p>
         </div>
       </section>
 
       <section className="bg-gray-100 py-12">
         <h1 className="text-2xl font-bold mb-12 text-center">
-          Benefits of being our partner
+          {t("bePartner.benefits_title")}
         </h1>
         <div className="container mx-auto text-center max-w-4xl">
           <div className="flex flex-wrap justify-around mb-8">
@@ -40,10 +34,10 @@ const Partner = () => {
                   />
                 </div>
                 <h3 className="text-xl font-semibold mb-2">
-                  Business Opportunities
+                  {t("bePartner.opportunities")}
                 </h3>
                 <p className="text-gray-700">
-                  Participation in large-scale projects with high visibility.
+                  {t("bePartner.opportunities_desc")}{" "}
                 </p>
               </div>
             </div>
@@ -58,11 +52,10 @@ const Partner = () => {
                     alt="pic"
                   />
                 </div>
-                <h3 className="text-xl font-semibold mb-2">Networking</h3>
-                <p className="text-gray-700">
-                  Connection with other professionals and leading companies in
-                  the real estate sector.
-                </p>
+                <h3 className="text-xl font-semibold mb-2">
+                  {t("bePartner.network")}
+                </h3>
+                <p className="text-gray-700">{t("bePartner.network_desc")}</p>
               </div>
             </div>
           </div>
@@ -77,10 +70,11 @@ const Partner = () => {
                   alt="pic"
                 />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Joint Growth</h3>
+              <h3 className="text-xl font-semibold mb-2">
+                {t("bePartner.growth")}
+              </h3>
               <p className="text-gray-700 max-w-2xl mx-auto">
-                Potential for growth and joint development with our real estate
-                business holding.
+                {t("bePartner.growth_desc")}
               </p>
             </div>
           </div>
@@ -91,69 +85,59 @@ const Partner = () => {
       <section className="bg-feature-bg py-12">
         <div className="container mx-auto text-center max-w-4xl">
           <h1 className="text-2xl font-bold mb-4">
-            Partners We Are Looking For
+            {t("bePartner.partners")}
           </h1>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="bg-gray-100 shadow-md rounded-md p-6 hover:bg-green-50 hover:text-white">
-              <h2 className="text-lg font-bold mb-2">Realtors</h2>
-              <p>Real estate agents who can help us market our subdivisions.</p>
+              <h2 className="text-lg font-bold mb-2">{t("bePartner.realtors")}</h2>
+              <p>{t("bePartner.realtors_desc")}</p>
             </div>
             <div className="bg-gray-100 shadow-md rounded-md p-6 hover:bg-green-50 hover:text-white">
-              <h2 className="text-lg font-bold mb-2">Design & Architect</h2>
+              <h2 className="text-lg font-bold mb-2">{t("bePartner.designer")}</h2>
               <p>
-                Architectural and design firms to create aesthetically pleasing
-                designs for our subdivisions.
+                {t("bePartner.designer_desc")}
               </p>
             </div>
             <div className="bg-gray-100 shadow-md rounded-md p-6 hover:bg-green-50 hover:text-white">
-              <h2 className="text-lg font-bold mb-2">
-                Environmental & Civil Engineers
-              </h2>
+              <h2 className="text-lg font-bold mb-2">{t("bePartner.engineers")}</h2>
               <p>
-                Civil and environmental engineering firms to ensure our
-                subdivisions are constructed sustainably and efficiently.
+                {t("bePartner.engineers_desc")}
               </p>
             </div>
             <div className="bg-gray-100 shadow-md rounded-md p-6 hover:bg-green-50 hover:text-white">
-              <h2 className="text-lg font-bold mb-2">Landscaper</h2>
+              <h2 className="text-lg font-bold mb-2">{t("bePartner.landscaper")}</h2>
               <p>
-                Landscape designers to enhance the beauty and functionality of
-                our subdivisions.
+                {t("bePartner.landscaper_desc")}
               </p>
             </div>
             <div className="bg-gray-100 shadow-md rounded-md p-6 hover:bg-green-50 hover:text-white">
-              <h2 className="text-lg font-bold mb-2">Topography</h2>
+              <h2 className="text-lg font-bold mb-2">{t("bePartner.topography")}</h2>
               <p>
-                Surveying services to provide accurate measurements of the land
-                for our subdivisions.
+                {t("bePartner.topography_desc")}
               </p>
             </div>
             <div className="bg-gray-100 shadow-md rounded-md p-6 hover:bg-green-50 hover:text-white">
-              <h2 className="text-lg font-bold mb-2">Earthwork</h2>
+              <h2 className="text-lg font-bold mb-2">{t("bePartner.earthwork")}</h2>
               <p>
-                Earthmoving services to prepare the land for construction in our
-                subdivisions.
+                {t("bePartner.earthwork_desc")}
               </p>
             </div>
             <div className="bg-gray-100 shadow-md rounded-md p-6 hover:bg-green-50 hover:text-white">
-              <h2 className="text-lg font-bold mb-2">Paving and Drainage</h2>
+              <h2 className="text-lg font-bold mb-2">{t("bePartner.paving")}</h2>
               <p>
-                Infrastructure companies to provide paving, drainage, and water
-                supply.
+                {t("bePartner.paving_desc")}
               </p>
             </div>
             <div className="bg-gray-100 shadow-md rounded-md p-6 hover:bg-green-50 hover:text-white">
-              <h2 className="text-lg font-bold mb-2">Supply</h2>
+              <h2 className="text-lg font-bold mb-2">{t("bePartner.supply")}</h2>
               <p>
-                Suppliers of construction materials and supplies for our
-                subdivisions.
+                {t("bePartner.supply_desc")}
               </p>
             </div>
             <div className="bg-gray-100 shadow-md rounded-md p-6 hover:bg-green-50 hover:text-white">
-              <h2 className="text-lg font-bold mb-2">Sewage</h2>
+              <h2 className="text-lg font-bold mb-2">{t("bePartner.sewage")}</h2>
               <p>
-                Infrastructure companies to provide sewage network services for
-                our subdivisions.
+                {t("bePartner.sewage_desc")}
               </p>
             </div>
           </div>
@@ -162,7 +146,7 @@ const Partner = () => {
 
       <section className="bg-gray-100 py-12">
         <div className="container mx-auto text-center max-w-4xl">
-          <h1 className="text-2xl font-bold mb-8">How to become a partner</h1>
+          <h1 className="text-2xl font-bold mb-8">{t("bePartner.become_partner")}</h1>
           <div className="text-left text-lg text-gray-700 mx-auto max-w-2xl">
             <ul className="space-y-6">
               <li className="flex items-start">
@@ -173,11 +157,10 @@ const Partner = () => {
                 </div>
                 <div className="ml-4">
                   <p className="text-xl font-semibold mb-1">
-                    Submit Your Proposal:{" "}
+                    {t("bePartner.submit")}:{" "}
                   </p>
                   <p>
-                    Fill out our registration form with detailed information
-                    about your company and the services you offer.
+                    {t("bePartner.submit_desc")}
                   </p>
                 </div>
               </li>
@@ -188,11 +171,9 @@ const Partner = () => {
                   </span>
                 </div>
                 <div className="ml-4">
-                  <p className="text-xl font-semibold mb-1">Evaluation: </p>
+                  <p className="text-xl font-semibold mb-1">{t("bePartner.eval")}: </p>
                   <p>
-                    Our team of experts will evaluate your proposal based on
-                    criteria of quality, experience, and compatibility with our
-                    projects.
+                    {t("bePartner.eval_desc")}
                   </p>
                 </div>
               </li>
@@ -203,10 +184,9 @@ const Partner = () => {
                   </span>
                 </div>
                 <div className="ml-4">
-                  <p className="text-xl font-semibold mb-1">Contact</p>
+                  <p className="text-xl font-semibold mb-1">{t("bePartner.contact")}</p>
                   <p>
-                    We will get in touch to discuss partnership opportunities
-                    and the next steps.
+                    {t("bePartner.contact_desc")}
                   </p>
                 </div>
               </li>
@@ -217,11 +197,10 @@ const Partner = () => {
 
       <section className="bg-feature-bg py-12">
         <div className="container mx-auto text-center max-w-4xl">
-          <h1 className="text-2xl font-bold mb-4">Contact Us</h1>
+          <h1 className="text-2xl font-bold mb-4">{t("bePartner.contact_us")}</h1>
           <div className="text-left text-lg text-gray-700 mx-auto max-w-2xl">
             <p>
-              For more information or inquiries, feel free to contact our
-              partnership team:
+              {t("bePartner.contact_us_desc")}
             </p>
             <ul className="list-none mt-4">
               <li className="mb-2">
@@ -234,7 +213,7 @@ const Partner = () => {
                 </a>
               </li>
               <li className="mb-2">
-                <strong>Phone:</strong>{" "}
+                <strong>{t("bePartner.phone")}:</strong>{" "}
                 <a
                   href="tel:+554830369566"
                   className="text-blue-600 hover:underline"
@@ -249,7 +228,7 @@ const Partner = () => {
               href="mailto:julionegri@newurb.com.br"
               className="bg-green-500 text-white px-6 py-3 rounded-md shadow-md hover:bg-green-900 transition-colors duration-300"
             >
-              Get In Touch
+              {t("bePartner.get_in_touch")}
             </a>
           </div>
         </div>

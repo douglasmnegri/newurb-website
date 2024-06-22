@@ -10,7 +10,10 @@ import { useTranslation } from "react-i18next";
 import { handleChangeLanguage } from "./languageUtils"; // Adjust the path as necessary
 
 const Home = () => {
-  const { t, i18n: { language } } = useTranslation();
+  const {
+    t,
+    i18n: { language },
+  } = useTranslation();
   const [currentLanguage, setCurrentLanguage] = useState(language);
 
   const handleLanguageChange = (lang) => {
@@ -25,10 +28,9 @@ const Home = () => {
       <Form />
       <Land />
       <Partners />
-      <Footer />
     </>
   );
-}
+};
 
 // Exporting Home component as default
 export default Home;
