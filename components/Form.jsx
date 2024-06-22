@@ -18,10 +18,10 @@ const Form = () => {
   const { t } = useTranslation();
   return (
     <section className="pt-10 bg-[rgb(237,191,133)]">
-      <div className="flex flex-col ml-12 lg:flex-row justify-center lg:justify-between relative">
-        <div className="z-20 w-full lg:w-[40%] lg:ml-10 flex flex-col">
+      <div className="flex flex-col my-12 mx-12 lg:flex-row justify-center lg:justify-between relative text-center lg:ml-12 lg:mr-0 2xl:justify-center" >
+        <div className="z-20 w-full lg:w-[40%] flex flex-col 2xl:mr-72">
           <div className="relative">
-            <h2 className="bold-32 lg:bold-64 pb-2">{t("form.partner")}</h2>
+            <h2 className="bold-32 lg:bold-40 pb-2">{t("form.partner")}</h2>
             <h5 className="lg:regular-20">{t("form.realtor")}</h5>
             <br></br>
             <h5 className="lg:regular-20">{t("form.realtor2")}</h5>
@@ -148,14 +148,15 @@ const Form = () => {
             </form>
           </div>
         </div>
-        <div className="hidden lg:block w-full lg:self-end left-0 absolute">
+        <div className="lg:block w-full lg:self-end lg:absolute">
           {/* Image */}
           <div className="flex justify-end">
             <Image
               src="/glasses-model.png"
               alt="Realtor Partner"
-              height={900}
-              width={900}
+              height={1000}
+              width={1000}
+              className="lg:h-auto lg:w-[800px] w-full"
             />
           </div>
         </div>

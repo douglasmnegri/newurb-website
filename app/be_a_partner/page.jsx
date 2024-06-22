@@ -9,7 +9,7 @@ const Partner = () => {
   return (
     <>
       {/* About Us Section */}
-      <section className="bg-white py-12">
+      <section className="bg-white py-12 mx-4">
         <div className="container mx-auto text-center max-w-4xl">
           <h1 className="text-4xl font-bold mb-4">{t("bePartner.title")}</h1>
           <p className="text-lg text-gray-700">{t("bePartner.description")}</p>

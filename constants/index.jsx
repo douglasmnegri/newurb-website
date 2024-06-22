@@ -6,11 +6,7 @@ export const NAV_LINKS = [
 ];
 
 export const PROPERTY_LINK = [
-  {
-    href: "/list_property",
-    key: "list_property",
-    label: "labels.list_your_property",
-  },
+  { href: "/list_property", key: "list_property", label: "labels.about_us" },
 ];
 
 // CAMP SECTION
@@ -79,3 +75,14 @@ export const SOCIALS_PARTNERS = {
   title: "Social",
   links: ["/instagram.svg", "/facebook.svg", "/linkedin.svg"],
 };
+
+export const SOCIALS_PARTNERS_JULIO = [
+  { href: "https://www.instagram.com/juliocnegri/", key: "instagram", icon: "/instagram.svg"},
+  { href: "https://www.facebook.com/julio.negri.1/", key: "facebook", icon: "/facebook.svg"},
+  { href: "https://www.linkedin.com/in/julionegri/", key: "linkedin", icon: "/linkedin.svg"},
+];
+
+export const SOCIALS_PARTNERS_LUCIANO = [
+  { href: "https://www.instagram.com/luccapuano/", key: "instagram", icon: "/instagram.svg"},
+  { href: "https://www.facebook.com/luciano.j.capuano", key: "facebook", icon: "/facebook.svg"},
+];

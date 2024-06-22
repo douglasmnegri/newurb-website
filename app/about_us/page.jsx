@@ -2,7 +2,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import { SOCIALS, SOCIALS_PARTNERS } from "@/constants";
+import { SOCIALS_PARTNERS_JULIO, SOCIALS_PARTNERS_LUCIANO } from "@/constants";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
 
@@ -12,7 +12,7 @@ function Investors() {
   return (
     <>
       {/* About Us Section */}
-      <section className="bg-white py-12">
+      <section className="bg-white py-12 px-4">
         <div className="container mx-auto text-center max-w-4xl">
           {" "}
           {/* Added max-w-4xl class */}
@@ -118,10 +118,16 @@ function Investors() {
                     </p>
                     <p className="text-sm">{t("aboutUs.julio_description")}</p>
                   </div>
+
                   <ul className="regular-8 flex gap-2 text-gray-30 items-center justify-center mt-3">
-                    {SOCIALS_PARTNERS.links.map((link, index) => (
-                      <Link href="/" key={index}>
-                        <Image src={link} alt="logo" width={24} height={24} />
+                    {SOCIALS_PARTNERS_JULIO.map((link, index) => (
+                      <Link href={link.href} key={index} target="blank">
+                        <Image
+                          src={link.icon}
+                          alt="logo"
+                          width={24}
+                          height={24}
+                        />
                       </Link>
                     ))}
                   </ul>
@@ -151,9 +157,14 @@ function Investors() {
                     </p>
                   </div>
                   <ul className="regular-8 flex gap-2 text-gray-30 items-center justify-center mt-3">
-                    {SOCIALS_PARTNERS.links.map((link, index) => (
-                      <Link href="/" key={index}>
-                        <Image src={link} alt="logo" width={24} height={24} />
+                    {SOCIALS_PARTNERS_LUCIANO.map((link, index) => (
+                      <Link href={link.href} key={index} target="blank">
+                        <Image
+                          src={link.icon}
+                          alt="logo"
+                          width={24}
+                          height={24}
+                        />
                       </Link>
                     ))}
                   </ul>
