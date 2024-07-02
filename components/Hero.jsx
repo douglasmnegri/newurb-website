@@ -21,7 +21,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="absolute text-center mt-96 top-0 left-0 w-full h-full flex flex-col justify-top items-left sm:mt-80 sm:ml-12 mt-56 md:text-left">
+      <div className="absolute text-center top-0 left-0 w-full h-full flex flex-col justify-top items-left sm:mt-80 sm:ml-12 mt-56 md:text-left">
         <div className="text-white justify-center">
           <h1 className="font-bold text-3xl lg:text-5xl">
             {t("hero.urbanism")}

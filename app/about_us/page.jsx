@@ -116,7 +116,14 @@ function Investors() {
                     <p className="text-sm mb-4">
                       {t("aboutUs.julio_occupation")}
                     </p>
-                    <p className="text-sm">{t("aboutUs.julio_description")}</p>
+                    <p className="text-sm">
+                      {t("aboutUs.julio_description")}
+                      <ul className="mt-2 font-bold">
+                        <li>CIPS®</li>
+                        <li>NAR REALTOR</li>
+                        <li>Creci 60.633</li>
+                      </ul>
+                    </p>
                   </div>
 
                   <ul className="regular-8 flex gap-2 text-gray-30 items-center justify-center mt-3">
@@ -154,6 +161,11 @@ function Investors() {
                     </p>
                     <p className="text-sm">
                       {t("aboutUs.luciano_description")}
+                      <ul className="mt-2 font-bold">
+                        <li>OAB-MG 91.125</li>
+                        <li>OAB-SP 451.386</li>
+                        <li>Creci-SP 280859</li>
+                      </ul>
                     </p>
                   </div>
                   <ul className="regular-8 flex gap-2 text-gray-30 items-center justify-center mt-3">
