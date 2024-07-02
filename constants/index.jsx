@@ -63,7 +63,7 @@ export const FOOTER_LINKS = [
 
 export const FOOTER_CONTACT_INFO = {
   title: "footer.contact_us",
-  links: [{ label: "Mail", value: "parceria@newurb.com.br" }],
+  links: [{ label: "Mail", value: "falecom@newurb.com.br" }],
 };
 
 export const SOCIALS = {

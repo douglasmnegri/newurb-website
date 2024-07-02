@@ -1,13 +1,13 @@
 {
   "labels": {
     "about_us": "Sobre nós",
-    "subdivisions": "Subdivisões",
-    "be_a_partner": "Seja um parceiro",
-    "list_your_property": "Liste sua propriedade"
+    "subdivisions": "Empreendimentos",
+    "be_a_partner": "Parceiros",
+    "list_your_property": "Negocie seu terreno"
   },
   "hero": {
-    "urbanism": "Urbanismo como nunca visto antes",
-    "release": "Informações sobre o lançamento"
+    "urbanism": "Construa seus sonhos com a gente.",
+    "release": "Loteamentos exclusivos"
   },
   "features": {
     "sustaintability": "Sustentabilidade",
@@ -16,10 +16,10 @@
     "our_location": "Nossa Localização"
   },
   "features_description": {
-    "sus.description": "Preserve o legado da natureza com práticas sustentáveis de manejo de terras. Nosso compromisso: desenvolvimento eco-friendly, conservação da biodiversidade e gestão responsável. Junte-se a nós na promoção de um futuro mais verde e saudável para as próximas gerações.",
-    "cred.description": "Confiança construída com integridade e ação. Com práticas transparentes, certificações e engajamento comunitário, garantimos que nossos compromissos com a sustentabilidade não sejam apenas promessas, mas contribuições tangíveis para um mundo melhor.",
-    "land.description": "Explorando empreendimentos sustentáveis: estabelecendo parcerias para desenvolvimento responsável e cultivando comunidades para um futuro mais verde. Oferecendo vendas de terrenos e condomínios, garantindo rentabilidade com práticas éticas.",
-    "loc.description": "Localizado no coração do estado de Santa Catarina, embarcamos em um projeto adquirindo terrenos por meio de parcerias forjadas em Florianópolis. Junte-se a nós na criação de uma visão para o desenvolvimento sustentável de terras."
+    "sus.description": "Nos nossos loteamentos, a sustentabilidade é fundamental. Integramos soluções ecológicas e práticas sustentáveis, criando comunidades que respeitam e valorizam a natureza. Nosso compromisso inclui desenvolvimento eco-friendly, conservação da biodiversidade e gestão responsável.",
+    "cred.description": "Transparência e integridade são a base de nosso trabalho, criando relações de confiança com clientes e parceiros. Comprometemo-nos a agir com ética e qualidade em todas as nossas ações. Conheça nosso trabalho e veja como fazemos a diferença!",
+    "land.description": "Estabelecemos parcerias para um desenvolvimento responsável e sustentável, contribuindo para comunidades com um futuro mais verde. Oferecemos terrenos, garantindo rentabilidade através de práticas éticas e conscientes.",
+    "loc.description": "Escolhemos terrenos em locais estratégicos que garantem fácil acesso a serviços essenciais e a comodidades da vida cotidiana. Nossos empreendimentos oferecem uma localização ideal para você e sua família aproveitarem ao máximo a qualidade de vida."
   },
   "form": {
     "signup": "Cadastre-se abaixo para fazer parte da nossa rede de corretores parceiros",
@@ -29,12 +29,12 @@
     "button_text": "Junte-se Agora"
   },
   "lands": {
-    "title": "Decida seu próximo grande passo!",
-    "text": "Descubra seu pedaço de paraíso! Abrace possibilidades infinitas neste terreno intocado. Construa seus sonhos do zero. Seu oásis futuro espera por você. Interessado em torná-lo seu?"
+    "title": "Seu novo lar está aqui: Conheça nossos loteamentos!",
+    "text": "Descubra nossos loteamentos e encontre o espaço perfeito para começar uma nova etapa da sua vida. Com uma abordagem sustentável e infraestrutura de qualidade, oferecemos terrenos que atendem às suas expectativas e necessidades."
   },
   "partners": {
-    "title": "Parceiros",
-    "text": "A NewUrb conta com alguns dos melhores parceiros em nossa região!"
+    "title": "Parceiro Oficial",
+    "text": "A NewUrb disponibiliza seus loteamentos na maior plataforma de comercialização de terrenos do sul do Brasil."
   },
   "footer": {
     "sales_center": "CENTRO DE VENDAS",
@@ -45,7 +45,7 @@
   "aboutUs": {
     "about_us": "Sobre nós",
     "description": "A NewUrb é uma empresa jovem, nascida da parceria entre Dr. Luciano Capoano, um consultor experiente e advogado especializado em Direito Imobiliário, e Julio Negri, administrador e CEO da BitHouse, uma plataforma inovadora focada na comercialização de terrenos e lotes.",
-    "description2": "A empresa está estruturada como um conglomerado imobiliário, com suas operações focadas na estruturação e desenvolvimento de loteamentos no estado de Santa Catarina. Essa parceria entre expertise jurídica e tecnológica nos permite oferecer soluções diferenciadas e inovadoras no mercado imobiliário, com o objetivo de criar comunidades sustentáveis e prósperas.",
+    "description2": "A empresa está estruturada como uma holding imobiliária, com suas operações focadas na estruturação e desenvolvimento de loteamentos no estado de Santa Catarina. Essa parceria entre expertise jurídica e tecnológica nos permite oferecer soluções diferenciadas e inovadoras no mercado imobiliário, com o objetivo de criar comunidades sustentáveis e prósperas.",
     "purpose": "Propósito",
     "purpose_description": "Estamos comprometidos em oferecer mais do que simples terrenos, mas oportunidades para desenvolver espaços que promovam uma vida de qualidade em harmonia com a natureza.",
     "mission": "Missão",
@@ -75,8 +75,8 @@
     "opportunities_desc": "Participação em projetos de grande escala com alta visibilidade.",
     "network": "Networking",
     "network_desc": "Conexão com outros profissionais e empresas líderes no setor imobiliário.",
-    "growth": "Crescimento Conjunto",
-    "growth_desc": "Potencial de crescimento e desenvolvimento conjunto com nosso grupo empresarial imobiliário.",
+    "growth": "Construindo o futuro juntos",
+    "growth_desc": "Potencial de crescimento e desenvolvimento conjunto com nossa holding imobiliária.",
     "partners": "Parceiros que estamos procurando",
     "realtors": "Corretores Imobiliários",
     "realtors_desc": "Agentes imobiliários que podem nos ajudar a comercializar nossos loteamentos.",
@@ -124,6 +124,6 @@
     "partner_benefits": "Benefícios de Parceria com a NewUrb",
     "benefits_desc": "Com vasta experiência no mercado imobiliário e um histórico comprovado de sucesso em projetos de loteamentos, nossa equipe na NewUrb oferece um profundo conhecimento da indústria e uma história de entrega de resultados excepcionais.",
     "benefits_desc2": "Aproveitando uma ampla rede de parceiros, fornecedores e profissionais, garantimos qualidade e eficiência em todas as etapas do projeto.",
-    "button": "Envie seu terreno"
+    "button": "Entre em contato"
   }
 }

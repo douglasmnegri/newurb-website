@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 import { handleChangeLanguage } from "@/app/languageUtils";
 
 const Hero = () => {
-  const {t} = useTranslation();
+  const { t } = useTranslation();
   return (
     <section className="relative">
       <div className="relative">
@@ -21,13 +21,13 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-top items-left sm:mt-72 sm:ml-12  mt-56 ml-4">
+      <div className="absolute text-center mt-96 top-0 left-0 w-full h-full flex flex-col justify-top items-left sm:mt-80 sm:ml-12 mt-56 md:text-left">
         <div className="text-white justify-center">
           <h1 className="font-bold text-3xl lg:text-5xl">
             {t("hero.urbanism")}
           </h1>
 
-          <div className="text-center mt-4">
+          <div className="text-center mt-4 flex justify-center md:justify-normal">
             <Button
               type="button"
               variant={"btn_dark_green"}

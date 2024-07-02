@@ -40,7 +40,6 @@ const Footer = () => {
                     key={index}
                     className="flex gap-2 lg:flex-col justify-center regular-14 text-gray-30"
                   >
-                    <p className="whitespace-nowrap">{link.label}:</p>
                     <p className="regular-8 flex gap-2 text-gray-30 justify-center">
                       {link.value}
                     </p>
