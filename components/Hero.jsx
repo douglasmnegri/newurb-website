@@ -3,6 +3,7 @@ import Image from "next/image";
 import Button from "./Button";
 import { useTranslation } from "react-i18next";
 import { handleChangeLanguage } from "@/app/languageUtils";
+import Link from "next/link";
 
 const Hero = () => {
   const { t } = useTranslation();
@@ -28,11 +29,14 @@ const Hero = () => {
           </h1>
 
           <div className="text-center mt-4 flex justify-center md:justify-normal">
-            <Button
-              type="button"
-              variant={"btn_dark_green"}
-              title={t("hero.release")}
-            />
+            <Link href="/subdivisions">
+              <Button
+                onClick="/subdivisions"
+                type="button"
+                variant={"btn_dark_green"}
+                title={t("hero.release")}
+              />
+            </Link>
           </div>
         </div>
       </div>
