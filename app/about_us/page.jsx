@@ -97,9 +97,9 @@ function Investors() {
               <h1 className="text-4xl text-black font-bold text-center mb-6">
                 {t("aboutUs.team")}
               </h1>
-              <h3 className="text-gray-600 font-bold text-center mb-8">
+              {/* <h3 className="text-gray-600 font-bold text-center mb-8">
                 {t("aboutUs.team_subtext")}{" "}
-              </h3>
+              </h3> */}
             </div>
             <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
               <div className="bg-gray-200 text-center rounded-lg p-8 h-full transition duration-250 ease-in-out transform hover:bg-green-50 hover:text-white">
@@ -119,9 +119,9 @@ function Investors() {
                     <p className="text-sm">
                       {t("aboutUs.julio_description")}
                       <ul className="mt-2 font-bold">
-                        <li>CIPS®</li>
+                        <li>CIPS® REALTOR</li>
                         <li>NAR REALTOR</li>
-                        <li>Creci 60.633</li>
+                        <li>Creci-SC 60.633</li>
                       </ul>
                     </p>
                   </div>

@@ -24,7 +24,7 @@ const Form = () => {
             <h2 className="bold-32 lg:bold-40 pb-2">{t("form.partner")}</h2>
             <h5 className="lg:regular-20">{t("form.realtor")}</h5>
             <br></br>
-            <h5 className="lg:regular-20">{t("form.realtor2")}</h5>
+            {/* <h5 className="lg:regular-20">{t("form.realtor2")}</h5> */}
             <form className="flex flex-col mt-5">
               <div>
                 <div className="text-center my-8 flex justify-center">

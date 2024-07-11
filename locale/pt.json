@@ -26,7 +26,7 @@
     "partner": "Torne-se nosso parceiro!",
     "realtor": "Desbloqueie seu potencial no mercado imobiliário! Junte-se a nós como corretor e embarque em uma jornada recompensadora de crescimento e sucesso",
     "realtor2": "Descubra a liberdade para moldar sua carreira, fazer conexões significativas e prosperar no dinâmico mundo da propriedade. Comece sua jornada hoje!",
-    "button_text": "Junte-se Agora"
+    "button_text": "Cadastro de Corretor"
   },
   "lands": {
     "title": "Conheça nossos loteamentos!",
@@ -44,19 +44,19 @@
   },
   "aboutUs": {
     "about_us": "Sobre nós",
-    "description": "A NewUrb é uma empresa jovem, nascida da parceria entre Dr. Luciano Capuano, um consultor experiente e advogado especializado em Direito Imobiliário, e Julio Negri, administrador e CEO da BitHouse, uma plataforma inovadora focada na comercialização de terrenos e lotes.",
-    "description2": "A empresa está estruturada como uma holding imobiliária, com suas operações focadas na estruturação e desenvolvimento de loteamentos no estado de Santa Catarina. Essa parceria entre expertise jurídica e tecnológica nos permite oferecer soluções diferenciadas e inovadoras no mercado imobiliário, com o objetivo de criar comunidades sustentáveis e prósperas.",
+    "description": "A NewUrb é uma empresa nascida da parceria entre Dr. Luciano Capuano, um consultor experiente e advogado especializado em Direito Imobiliário, e Julio Negri, administrador e CEO da BitHouse, uma plataforma inovadora focada na comercialização de terrenos e lotes.",
+    "description2": "A empresa atua na estruturação e desenvolvimento de loteamentos, com foco no estado de Santa Catarina. Essa parceria entre expertise jurídica e tecnológica nos permite oferecer soluções diferenciadas e inovadoras no mercado imobiliário, com o objetivo de criar comunidades sustentáveis e prósperas.",
     "purpose": "Propósito",
     "purpose_description": "Estamos comprometidos em oferecer mais do que simples terrenos, mas oportunidades para desenvolver espaços que promovam uma vida de qualidade em harmonia com a natureza.",
     "mission": "Missão",
     "mission_description": "Nossa missão é fornecer terrenos que sirvam de base para o desenvolvimento de espaços residenciais e comerciais que promovam qualidade de vida e sustentabilidade.",
     "vision": "Visão",
     "vision_description": "Nossa visão é ser líderes no setor de loteamentos, transformando áreas em comunidades planejadas que se destacam pela sustentabilidade, qualidade de vida e integração com o entorno. Queremos ser reconhecidos como agentes de mudança positiva, contribuindo para o desenvolvimento de áreas que ofereçam valor duradouro para as gerações futuras.",
-    "team": "A EQUIPE POR TRÁS DA NEW URB",
+    "team": "Administração da NEWURB",
     "team_subtext": "CONHEÇA A EQUIPE QUE TORNA TUDO POSSÍVEL",
-    "julio_occupation": "Diretor de Vendas",
+    "julio_occupation": "Diretor Comercial",
     "julio_description": "Administrador, Pós-graduando em Metaverso e NFT, e especialista em negócios imobiliários internacionais. Sócio fundador da Bithouse e Newurb Empreendimentos.",
-    "luciano_occupation": "Diretor Financeiro",
+    "luciano_occupation": "Diretor Jurídico e Financeiro",
     "luciano_description": "Especialista em Direito Imobiliário com 22 anos de experiência. Sócio fundador: Capuano e Lima Advocacia e Consultoria, Exponencial Participações e NewUrb Empreendimentos."
   },
   "subdivisions": {
