@@ -7,25 +7,69 @@ import Link from "next/link";
 import Button from "./Button";
 
 const Form = () => {
-  // const [name, setName] = useState("");
-  // const [email, setEmail] = useState("");
-  // const [whatsapp, setWhatsapp] = useState("");
-  // const [website, setWebsite] = useState("");
-  // const [isNameFocused, setIsNameFocused] = useState(false);
-  // const [isEmailFocused, setIsEmailFocused] = useState(false);
-  // const [isWhatsappFocused, setIsWhatsappFocused] = useState(false);
-  // const [isWebsiteFocused, setIsWebsiteFocused] = useState(false);
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [whatsapp, setWhatsapp] = useState("");
+  const [website, setWebsite] = useState("");
+  const [isNameFocused, setIsNameFocused] = useState(false);
+  const [isEmailFocused, setIsEmailFocused] = useState(false);
+  const [isWhatsappFocused, setIsWhatsappFocused] = useState(false);
+  const [isWebsiteFocused, setIsWebsiteFocused] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
   const { t } = useTranslation();
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+
+    if (name === "" || email === "" || whatsapp === "") {
+      setErrorMessage(
+        "Preencha os campos obrigatórios: Nome, Email e Whatsapp!"
+      );
+      return;
+    }
+
+    const formData = { name, email, whatsapp, website };
+
+    try {
+      const response = await fetch(
+        `http://localhost:3000/send-email`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            toAddress: "recipient@example.com",
+            subject: "New Form Submission",
+            body: `Name: ${name}\nEmail: ${email}\nWhatsapp: ${whatsapp}\nWebsite: ${website}`,
+          }),
+        }
+      );
+
+      if (!response.ok) {
+        throw new Error("Network response was not ok");
+      }
+
+      const result = await response.text();
+      console.log("Form data logged successfully:", result);
+      alert("Form data logged successfully!");
+    } catch (error) {
+      
+      console.error("Error logging form data:", error);
+      alert("Error logging form data. Please try again.");
+    }
+  };
+
   return (
     <section className="pt-10 bg-[rgb(237,191,133)]">
-      <div className="flex flex-col my-12 mx-12 lg:flex-row justify-center lg:justify-between relative text-center lg:ml-12 lg:mr-0 2xl:justify-center" >
+      <div className="flex flex-col my-12 mx-12 lg:flex-row justify-center lg:justify-between relative text-center lg:ml-12 lg:mr-0 2xl:justify-center">
         <div className="z-20 w-full lg:w-[40%] flex flex-col 2xl:mr-72">
           <div className="relative">
             <h2 className="bold-32 lg:bold-40 pb-2">{t("form.partner")}</h2>
             <h5 className="lg:regular-20">{t("form.realtor")}</h5>
             <br></br>
             {/* <h5 className="lg:regular-20">{t("form.realtor2")}</h5> */}
-            <form className="flex flex-col mt-5">
+            <form className="flex flex-col mt-5" onSubmit={handleSubmit}>
               <div>
                 <div className="text-center my-8 flex justify-center">
                   <Link
@@ -42,7 +86,7 @@ const Form = () => {
                   </Link>
                 </div>
               </div>
-              {/* <div className="mb-8 mt-4 relative">
+              <div className="mb-8 mt-4 relative">
                 <input
                   type="text"
                   id="name"
@@ -144,7 +188,7 @@ const Form = () => {
                 className="p-2 bg-blue-900 text-white rounded hover:bg-blue-600 mr-12 mb-8"
               >
                 Submit
-              </button> */}
+              </button>
             </form>
           </div>
         </div>
