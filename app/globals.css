@@ -403,3 +403,8 @@ body {
   right: 0;
   overflow-y: hidden;
 }
+
+.custom-checkbox {
+  width: 1.2em;
+  height: 1.2em;
+}
