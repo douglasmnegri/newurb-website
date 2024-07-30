@@ -31,20 +31,17 @@ const Form = () => {
     const formData = { name, email, whatsapp, website };
 
     try {
-      const response = await fetch(
-        `http://localhost:3000/send-email`,
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            toAddress: "recipient@example.com",
-            subject: "New Form Submission",
-            body: `Name: ${name}\nEmail: ${email}\nWhatsapp: ${whatsapp}\nWebsite: ${website}`,
-          }),
-        }
-      );
+      const response = await fetch(`http://localhost:3000/send-email`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          toAddress: "recipient@example.com",
+          subject: "New Form Submission",
+          body: `Name: ${name}\nEmail: ${email}\nWhatsapp: ${whatsapp}\nWebsite: ${website}`,
+        }),
+      });
 
       if (!response.ok) {
         throw new Error("Network response was not ok");
@@ -54,7 +51,6 @@ const Form = () => {
       console.log("Form data logged successfully:", result);
       alert("Form data logged successfully!");
     } catch (error) {
-      
       console.error("Error logging form data:", error);
       alert("Error logging form data. Please try again.");
     }
@@ -69,23 +65,8 @@ const Form = () => {
             <h5 className="lg:regular-20">{t("form.realtor")}</h5>
             <br></br>
             {/* <h5 className="lg:regular-20">{t("form.realtor2")}</h5> */}
-            <form className="flex flex-col mt-5" onSubmit={handleSubmit}>
-              <div>
-                <div className="text-center my-8 flex justify-center">
-                  <Link
-                    href={
-                      "https://docs.google.com/forms/d/e/1FAIpQLSfQ2qUSgPvOjtL90OkhKjFzY-vXTFGK8DnXmm9lN5kotRoNqg/viewform"
-                    }
-                    target="_blank"
-                  >
-                    <Button
-                      type="button"
-                      variant={"btn_dark_green"}
-                      title={t("form.button_text")}
-                    />
-                  </Link>
-                </div>
-              </div>
+            <form className="flex flex-col" onSubmit={handleSubmit}>
+              <div></div>
               <div className="mb-8 mt-4 relative">
                 <input
                   type="text"
@@ -182,13 +163,14 @@ const Form = () => {
                 />
                 I agree to be contacted by the New Urb team
               </label>
-
-              <button
-                type="submit"
-                className="p-2 bg-blue-900 text-white rounded hover:bg-blue-600 mr-12 mb-8"
-              >
-                Submit
-              </button>
+              <Link href="/success">
+                <button
+                  type="submit"
+                  className="p-2 bg-blue-900 text-white rounded hover:bg-blue-600 mr-12 mb-8 text-lg w-48"
+                >
+                  Submit
+                </button>
+              </Link>
             </form>
           </div>
         </div>
