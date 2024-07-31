@@ -26,7 +26,13 @@
     "partner": "¡Conviértete en nuestro socio!",
     "realtor": "¡Desbloquea tu potencial en bienes raíces! Únete a nosotros como agente inmobiliario y emprende un viaje gratificante de crecimiento y éxito",
     "realtor2": "Descubre la libertad de moldear tu carrera, hacer conexiones significativas y prosperar en el dinámico mundo de la propiedad. ¡Comienza tu viaje hoy!",
-    "button_text": "Únete Ahora"
+    "button_text": "Únete Ahora",
+    "agree": "Acepto ser contactado por New Urb",
+    "name": "Nombre",
+    "mail": "Correo electrónico",
+    "whatsapp": "Whatsapp",
+    "website": "Website"
+
   },
   "lands": {
     "title": "¡Decide tu próximo gran paso!",

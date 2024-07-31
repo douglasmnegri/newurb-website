@@ -24,9 +24,14 @@
   "form": {
     "signup": "Cadastre-se abaixo para fazer parte da nossa rede de corretores parceiros",
     "partner": "Torne-se nosso parceiro!",
-    "realtor": "Desbloqueie seu potencial no mercado imobiliário! Junte-se a nós como corretor e embarque em uma jornada recompensadora de crescimento e sucesso",
+    "realtor": "Desbloqueie seu potencial no mercado imobiliário! Junte-se a nós como corretor!",
     "realtor2": "Descubra a liberdade para moldar sua carreira, fazer conexões significativas e prosperar no dinâmico mundo da propriedade. Comece sua jornada hoje!",
-    "button_text": "Cadastro de Corretor"
+    "button_text": "Cadastro de Corretor",
+    "agree": "Aceito ser contatado pela New Urb",
+    "name": "Nome",
+    "mail": "E-mail",
+    "whatsapp": "Whatsapp",
+    "website": "Website"
   },
   "lands": {
     "title": "Conheça nossos loteamentos!",

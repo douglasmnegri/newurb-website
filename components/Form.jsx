@@ -47,9 +47,12 @@ const Form = () => {
         throw new Error("Network response was not ok");
       }
 
+      if (response.ok) {
+        window.location.href = "/success";
+      }
+
       const result = await response.text();
       console.log("Form data logged successfully:", result);
-      alert("Form data logged successfully!");
     } catch (error) {
       console.error("Error logging form data:", error);
       alert("Error logging form data. Please try again.");
@@ -58,13 +61,12 @@ const Form = () => {
 
   return (
     <section className="pt-10 bg-[rgb(237,191,133)]">
-      <div className="flex flex-col my-12 mx-12 lg:flex-row justify-center lg:justify-between relative text-center lg:ml-12 lg:mr-0 2xl:justify-center">
+      <div className="flex flex-col my-2 mx-12 lg:flex-row justify-center lg:justify-between relative text-center lg:ml-12 lg:mr-0 2xl:justify-center">
         <div className="z-20 w-full lg:w-[40%] flex flex-col 2xl:mr-72">
           <div className="relative">
             <h2 className="bold-32 lg:bold-40 pb-2">{t("form.partner")}</h2>
             <h5 className="lg:regular-20">{t("form.realtor")}</h5>
             <br></br>
-            {/* <h5 className="lg:regular-20">{t("form.realtor2")}</h5> */}
             <form className="flex flex-col" onSubmit={handleSubmit}>
               <div></div>
               <div className="mb-8 mt-4 relative">
@@ -85,7 +87,7 @@ const Form = () => {
                     isNameFocused || name ? "-top-4 text-sm" : ""
                   }`}
                 >
-                  Name
+                  {t("form.name")}
                 </label>
               </div>
 
@@ -107,7 +109,7 @@ const Form = () => {
                     isEmailFocused || email ? "-top-4 text-sm" : ""
                   }`}
                 >
-                  E-mail
+                  {t("form.mail")}{" "}
                 </label>
               </div>
 
@@ -129,7 +131,7 @@ const Form = () => {
                     isWhatsappFocused || whatsapp ? "-top-4 text-sm" : ""
                   }`}
                 >
-                  Whatsapp
+                  {t("form.whatsapp")}
                 </label>
               </div>
 
@@ -150,39 +152,38 @@ const Form = () => {
                     isWebsiteFocused || website ? "-top-4 text-sm" : ""
                   }`}
                 >
-                  Website
+                  {t("form.website")}
                 </label>
               </div>
 
-              <label className="flex items-center mb-4">
+              <label className="flex items-center mb-4 mt-4">
                 <input
                   type="checkbox"
                   name="contact-agreement"
-                  className="mr-2"
+                  className="custom-checkbox mr-2"
                   required
                 />
-                I agree to be contacted by the New Urb team
+                {t("form.agree")}{" "}
               </label>
-              <Link href="/success">
-                <button
+              <div className="mb-4 mt-4 flex justify-center lg:justify-normal">
+                <Button
                   type="submit"
-                  className="p-2 bg-blue-900 text-white rounded hover:bg-blue-600 mr-12 mb-8 text-lg w-48"
-                >
-                  Submit
-                </button>
-              </Link>
+                  variant={"btn_dark_green"}
+                  title={t("form.button_text")}
+                  href="/success"
+                />
+              </div>
             </form>
           </div>
         </div>
         <div className="lg:block w-full lg:self-end lg:absolute">
-          {/* Image */}
           <div className="flex justify-end">
             <Image
               src="/glasses-model.png"
               alt="Realtor Partner"
               height={1000}
               width={1000}
-              className="lg:h-auto lg:w-[800px] w-full"
+              className="lg:h-auto lg:w-[800px] w-full hidden md:block"
             />
           </div>
         </div>

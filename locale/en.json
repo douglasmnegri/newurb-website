@@ -26,7 +26,12 @@
     "partner": "Become our partner!",
     "realtor": "Unlock your potential in real estate! Join us as a realtor and embark on a rewarding journey of growth and success",
     "realtor2": "Discover the freedom to shape your career, make meaningful connections, and thrive in the dynamic world of property. Start your journey today!",
-    "button_text": "Join Now"
+    "button_text": "Join Now",
+    "agree": "I agree to be contacted by the New Urb",
+    "name": "Name",
+    "mail": "E-mail",
+    "whatsapp": "Whatsapp",
+    "website": "Website"
   },
   "lands": {
     "title": "Decide your next big move!",
