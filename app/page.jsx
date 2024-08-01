@@ -23,6 +23,7 @@ const Home = () => {
 
   return (
     <>
+   
       <Hero />
       <Features />
       <Form />

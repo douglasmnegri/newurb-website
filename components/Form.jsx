@@ -31,17 +31,20 @@ const Form = () => {
     const formData = { name, email, whatsapp, website };
 
     try {
-      const response = await fetch(`http://localhost:3000/send-email`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          toAddress: "recipient@example.com",
-          subject: "New Form Submission",
-          body: `Name: ${name}\nEmail: ${email}\nWhatsapp: ${whatsapp}\nWebsite: ${website}`,
-        }),
-      });
+      const response = await fetch(
+        `${process.env.NEXT_PUBLIC_API_URL}`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            toAddress: "recipient@example.com",
+            subject: "New Form Submission",
+            body: `Name: ${name}\nEmail: ${email}\nWhatsapp: ${whatsapp}\nWebsite: ${website}`,
+          }),
+        }
+      );
 
       if (!response.ok) {
         throw new Error("Network response was not ok");
