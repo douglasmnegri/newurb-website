@@ -3,7 +3,7 @@ name: Deploy to S3
 on:
   push:
     branches:
-      - main  # Altere para o ramo desejado
+      - main  # Change this to your desired branch
 
 jobs:
   deploy:
@@ -23,7 +23,7 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '20'  
+        node-version: '20'
 
     - name: Install dependencies
       run: npm install
@@ -34,6 +34,8 @@ jobs:
     - name: Sync files to S3
       run: |
         aws s3 sync ./out s3://newurb-website --delete
+      env:
+        NEXT_PUBLIC_API_URL: ${{ secrets.NEXT_PUBLIC_API_URL }}  # Pass environment variables if needed for the build
 
     - name: Invalidate CloudFront cache
       run: |
