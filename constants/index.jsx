@@ -68,8 +68,13 @@ export const FOOTER_CONTACT_INFO = {
 
 export const SOCIALS = {
   title: "footer.socials",
-  links: ["/instagram.svg", "/facebook.svg", "/youtube.svg"],
+  links: [
+    { href: "https://www.instagram.com/new.urb", icon: "/instagram.svg" },
+    { href: "https://www.facebook.com/profile.php?id=61565821023778", icon: "/facebook.svg" },
+    { href: "/", icon: "/youtube.svg" }, // Adicione o link correto para o YouTube se necessário
+  ],
 };
+
 
 export const SOCIALS_PARTNERS = {
   title: "Social",

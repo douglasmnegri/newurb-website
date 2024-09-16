@@ -17,16 +17,22 @@ const Release = () => {
                 {t("partners.text")}
               </p>
             </div>
-            <div className="flex flex-col items-center sm:items-start sm:flex-row">
-              <div className="border-solid border-2 bg-white flex items-center justify-center rounded-full w-40 h-40 p-4">
-                <Image
-                  src={"/bithouse-logo.svg"}
-                  alt="logo locates"
-                  width={150}
-                  height={150}
-                />
+            <a
+              href="https://www.bithouse.com.br/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="flex flex-col items-center sm:items-start sm:flex-row">
+                <div className="border-solid border-2 bg-white flex items-center justify-center rounded-full w-40 h-40 p-4">
+                  <Image
+                    src={"/bithouse-logo.svg"}
+                    alt="logo locates"
+                    width={150}
+                    height={150}
+                  />
+                </div>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
@@ -35,4 +41,3 @@ const Release = () => {
 };
 
 export default Release;
-

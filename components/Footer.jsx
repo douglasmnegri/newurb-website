@@ -15,7 +15,13 @@ const Footer = () => {
         <div className="flex flex-col justify-center lg:justify-around lg:flex-row">
           <div className="flex justify-center mb-10">
             <Link href="/">
-              <Image src="/logo.png" alt="logo" width={150} height={150} layout="fixed" />
+              <Image
+                src="/logo.png"
+                alt="logo"
+                width={150}
+                height={150}
+                layout="fixed"
+              />
             </Link>
           </div>
 
@@ -52,8 +58,18 @@ const Footer = () => {
               <FooterColumn title={t(SOCIALS.title)}>
                 <ul className="regular-8 flex gap-2 text-gray-30 justify-center">
                   {SOCIALS.links.map((link, index) => (
-                    <Link href="/" key={index}>
-                      <Image src={link} alt="logo" width={22} height={22} />
+                    <Link
+                      href={link.href}
+                      key={index}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Image
+                        src={link.icon}
+                        alt="logo"
+                        width={22}
+                        height={22}
+                      />
                     </Link>
                   ))}
                 </ul>

@@ -32,7 +32,7 @@ module.exports = {
       },
       backgroundImage: {
         "bg-img-1": "url('/land.jpg')",
-        "bg-img-2": "url('/land-2.jpg')",
+        "bg-img-2": "url('/land-5.jpg')",
         "feature-bg": "url('/feature-bg.png')",
         "form-bg": "url('/16.png')",
         pattern: "url('/background-banner.svg')",
