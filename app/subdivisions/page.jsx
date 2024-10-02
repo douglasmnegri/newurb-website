@@ -86,7 +86,7 @@ const Subdivisions = () => {
             {/* Left part with Image as Background */}
             <div
               className="w-full md:w-1/2 h-96 bg-cover bg-center"
-              style={{ backgroundImage: "url(/land-2.jpg)" }}
+              style={{ backgroundImage: "url(/land-5.jpg)" }}
             ></div>
             {/* Right part with Details */}
             <div className="w-full md:w-1/2 p-8 flex flex-col justify-center">
